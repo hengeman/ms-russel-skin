@@ -16,8 +16,11 @@ Javascript file HTTP request, rather than many. Here's how to get started:
    try `sudo npm install -g grunt-cli`
 5. Install the project dependencies with `npm install` from the project
    directory.
-6. Install an [editorconfig plugin](http://editorconfig.org/#download) for your
-   text editor, if one is available.
+6. Copy `ftppass.example.json` to `ftppass.json` and edit to contain the
+   correct FTP login details.
+
+*[optional]* Install an [editorconfig plugin](http://editorconfig.org/#download)
+for your text editor, if one is available.
 
 ## Usage
 
