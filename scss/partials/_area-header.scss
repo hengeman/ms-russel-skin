@@ -1,5 +1,12 @@
 // Area at top of content. i.e. 'Start a document'
 
+.areaHeader {
+  background: #0069aa;
+  padding: 10px 1px 5px 5px;
+  vertical-align: middle;
+  width: 100%;
+}
+
 .areaTitle {
   color: #fff;
   font-size: 15px;
@@ -28,9 +35,12 @@
 }
 
 .areaComment {
+  background: #0069aa;
   color: #fff;
   font-size: 10px;
   font-weight: bold;
-  padding: 3px 15px0 15px;
+  height: 33px;
+  padding: 3px 15px 0;
   text-transform: none;
+  width: 100%;
 }

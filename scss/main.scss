@@ -10,6 +10,8 @@
 @import 'partials/error';
 @import 'partials/warning';
 
+@import 'partials/page';
+
 //
 // Sections
 //
@@ -18,6 +20,9 @@
 
 // Pageflex navbar at top of page (start, basket, etc)
 @import 'partials/navbar';
+
+// Content area
+@import 'partials/area';
 // Area at top of content. i.e. 'Start a document'
 @import 'partials/area-header';
 

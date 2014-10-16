@@ -25,32 +25,11 @@ td.basic {
   vertical-align: top;
 }
 
-// Entire Page
-
-body.page {
-  background: #fff;
-  margin: 0;
-}
-
-.pageContent {
-  padding: 15px;
-}
-
-.pageMinimumWidth {
-  width: 700px;
-}
-
 .areaHeader {
   background: #0069aa;
   padding: 10px 1px 5px 5px;
   vertical-align: middle;
   width: 100%;
-}
-
-.simpleAreaHeader {
-  background: #e8ebea repeat-x;
-  padding: 2px 1px 5px 0;
-  vertical-align: middle;
 }
 
 .popupArea {
