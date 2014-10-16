@@ -1,19 +1,20 @@
-.catalogItemHeader-l,
-.catalogItemHeader-r,
-.catalogFolderHeader-l,
-.catalogFolderHeader-r,
-.catalogItem-l,
-.catalogItem-r,
+#labelHelp,
 .catalogFolder-l,
 .catalogFolder-r,
+.catalogFolderHeader,
+.catalogFolderHeader-l,
+.catalogFolderHeader-r,
+.catalogFolderRule,
+.catalogFolderRule-l,
+.catalogFolderRule-r,
+.catalogItem-l,
+.catalogItem-r,
+.catalogItemHeader,
+.catalogItemHeader-l,
+.catalogItemHeader-r,
+.catalogItemRule,
 .catalogItemRule-l,
 .catalogItemRule-r,
-.catalogFolderRule-l,
-.catalogItemHeader,
-.catalogFolderHeader,
-.catalogItemRule,
-.catalogFolderRule-r,
-.catalogFolderRule,
 .categorySidebarHeader-l,
 .categorySidebarHeader-r,
 .poweredByPageflex,
@@ -25,86 +26,40 @@ td.basic {
   vertical-align: top;
 }
 
-.areaHeader {
-  background: #0069aa;
-  padding: 10px 1px 5px 5px;
-  vertical-align: middle;
-  width: 100%;
-}
-
 .popupArea {
   background: none;
   padding: 13px 15px 10px0;
 }
 
-.areaComment {
-  background: #0069aa;
-  height: 33px;
-  padding: 2px 1px 6px0;
+// new add to cart button in step content area
+.CartButtons {
+  float: right;
+}
+
+// Price Estimate wrapping container
+.priceHint {
+  padding-left: 100px;
   width: 100%;
 }
 
-.area {
-  background: none;
-  padding: 11px 0;
+// Address Book Upload Download PopUps
+.AddressBookPopUpArea {
+  width: 325px;
 }
 
-.stepArea {
-  background: #fff;
-  padding: 11px 13px;
+.AddressTile {
+  background-color: #f5f5f5;
+  float: left;
+  height: 115px;
+  margin: 10px;
+  overflow: auto;
+  padding: 7px;
+  width: 175px;
 }
 
-.stepAreaFooter {
-  background: #e8ebea;
-  vertical-align: middle;
-}
-
-#InputFields_InputFields,
-#ReadOnlyFields_InputFields {
-  padding-left: 20px;
-}
-
-// Step Area
-
-.stepLabel {
+.AddressTileHeader {
   font-weight: bold;
-}
-
-.currentStepIndicator {
-  color: #fff;
-  font-size: 10px;
-  font-weight: bold;
-  padding-left: 5px;
-}
-
-.stepAreaHeaderNextPrevControls,
-.stepAreaFooterNextPrevControls {
-  background: url('Images/StepNextPrevBackground.gif') repeat-x;
-  border-width: 0 1px;
-  padding: 0 4px;
-}
-
-.stepNextPrevLabel {
-  font-size: 9px;
-  height: 26px;
-  padding-top: 4px;
-  vertical-align: middle;
-}
-
-.stepNextPrevLabel,
-.stepNextPrevLabelRollover {
-  color: #000;
-  font-size: 9px;
-  font-weight: bold;
-  padding: 0 5px;
-  text-decoration: none;
-  text-transform: none;
-  white-space: nowrap;
-}
-
-.stepNextPrevLabelRollover {
-  color: #0069aa;
-  cursor: pointer;
+  margin-bottom: 15px;
 }
 
 .areaGraphicNextStep,
@@ -127,104 +82,6 @@ td.basic {
   width: 28px;
 }
 
-.helpSidebarHeader,
-.stepControlsHeader {
-  background-color: #0069aa;
-  padding: 5px;
-}
-
-.helpSidebarTitle,
-.stepControlsTitle {
-  color: #fff;
-  font-size: 14px;
-  font-weight: bold;
-  padding-left: 20px;
-  padding-top: 12px;
-  text-transform: none;
-}
-
-.helpSidebar,
-.stepControls {
-  background-color: #80a1b6;
-}
-
-.stepControls {
-  padding-right: 30px;
-}
-
-.helpTopicSelected {
-  background: #1b8b75;
-}
-
-.helpTopicLevel1 { padding-left: 8px; }
-.helpTopicLevel2 { padding-left: 20px; }
-.helpTopicLevel3 { padding-left: 32px; }
-.helpTopic,
-.helpTopicSelected {
-  color: #ccd9e5;
-  font-size: 11px;
-  padding: 1px 8px 3px0;
-  text-decoration: none;
-  white-space: nowrap;
-}
-
-.stepControl {
-  background: #333;
-  border-left: 18px solid #333;
-  height: 20px;
-  padding: 3px0 16px0;
-  vertical-align: top;
-}
-
-.stepControlNumber,
-.stepControlNumberRollover,
-.stepControlNumberSelected {
-  background: #fff;
-  color: #0069aa;
-  font-size: 14px;
-  font-weight: bold;
-  height: 21px;
-  padding: 0 10px0 31px;
-  vertical-align: middle;
-  width: 31px;
-}
-
-.stepControlNumberRollover {
-  background-color: #ededea;
-  background-position: top left;
-  background-repeat: no-repeat;
-}
-
-.stepControlNumberSelected {
-  background-color: #ededea;
-  background-position: top left;
-  background-repeat: no-repeat;
-  color: #1b8b75;
-}
-
-.stepControlLabel,
-.stepControlLabelRollover,
-.stepControlLabelSelected {
-  font-size: 14px;
-  font-weight: bold;
-  padding: 0 10px0 8px;
-  vertical-align: middle;
-}
-
-.stepControlLabel,
-.stepControlLabelSelected {
-  color: #fff;
-  font-size: 14px;
-  font-weight: bold;
-  text-decoration: none;
-  text-transform: none;
-  white-space: nowrap;
-}
-
-.stepControlLabelSelected {
-  color: #fff;
-}
-
 .viewSwitcher {
   color: #fff;
   cursor: pointer;
@@ -241,57 +98,6 @@ td.basic {
   margin: 0;
 }
 
-// Form Filling
-
-
-.formFilling-form {
-  vertical-align: top;
-}
-
-.formMinWidth {
-  height: 1px;
-  width: 210px;
-}
-
-.formFilling-preview {
-  padding-left: 2px;
-  text-align: center;
-  vertical-align: top;
-  width: 100%;
-}
-
-.previewButtonFirst {
-  background: url('Images/PreviewButtonFirst.gif') no-repeat;
-}
-
-.previewButtonPrevious {
-  background: url('Images/PreviewButtonPrevious.gif') no-repeat;
-}
-
-.previewButtonNext {
-  background: url('Images/PreviewButtonNext.gif') no-repeat;
-}
-
-.previewButtonLast {
-  background: url('Images/PreviewButtonLast.gif') no-repeat;
-}
-
-.previewButtonSizer {
-  border: 0;
-  display: block;
-  height: 22px;
-  margin-right: 4px;
-  width: 24px;
-}
-
-.previewPageNumberText {
-  padding: 1px 7px0 3px;
-}
-
-.formFillingPreview {
-  border: 1px solid #da710b;
-}
-
 // Printing Options
 
 .childArea {
@@ -305,47 +111,6 @@ td.basic {
 .orderSummaryCell {
   border: 1px solid #da710b;
   padding: 4px0 4px 8px;
-}
-
-// AssetCell
-// For "My Library" and the "Select Image" page (via "Form Filling" page)
-
-.assetThumbnail {  // for "Select Image" page
-  background: #fff;
-  height: 120px;
-  padding-top: 20px;
-  text-align: center;
-  vertical-align: top;
-  width: 150px;
-}
-
-.assetThumbnailWithOptions {  // for "My Library"
-  background: #fff;
-  border-left: 1px solid #666;
-  border-top: 1px solid #666;
-  height: 115px;
-  padding: 15px00 15px;
-}
-
-.assetOptions {
-  background: #fff;
-  border-right: 1px solid #666;
-  border-top: 1px solid #666;
-  padding: 0 10px;
-}
-
-.assetCaption {
-  background: #fff;
-  border-bottom: 1px solid #666;
-  border-left: 1px solid #666;
-  border-right: 1px solid #666;
-  color: #0069aa;
-  font-size: 12px;
-  font-weight: bold;
-  height: 30px;
-  padding: 0 6px0 15px;
-  text-align: left;
-  text-decoration: none;
 }
 
 // Common classes for content inside areas
@@ -395,7 +160,6 @@ td.basic {
   padding: 0 15px 2px0;
 }
 
- // 7.6 additions
 .MultiShippingButton {
   height: 27px;
   margin-bottom: 5px;
@@ -459,89 +223,4 @@ td.basic {
 
 .areaGraphicCancelStepRollover div {
   background-position: 0 -11px;
-}
-
-.stepCart {
-  padding-right: 2px;
-}
-
-.stepCancel {
-  padding-right: 3px;
-}
-
-// new add to cart button in step content area
-.CartButtons {
-  float: right;
-}
-
-// Price Estimate wrapping container
-.priceHint {
-  padding-left: 100px;
-  width: 100%;
-}
-
-// Scroll Image list used in form fill kit parts
-.scrollButton {
-  float: left;
-  height: 84px;
-  margin-top: 3px;
-  width: 25px;
-}
-
-.scrollLeft {
-  background-image: url('./Images/scrollLeft.gif');
-  margin-right: 5px;
-}
-
-.scrollRight {
-  background-image: url('./Images/scrollRight.gif');
-  margin-left: 5px;
-}
-
-.scrollWrapper {
-  float: left;
-  height: 89px;
-  overflow: hidden;
-  position: relative; // IE 6 7 bug fix
-  width: 300px;
-}
-
-.scrollList {
-  width: 365px;
-
-  img {
-    height: expression(this.scrollHeight > 79 ? "80px" : "auto"); // IE
-    max-height: 80px; // Good browsers
-  }
-}
-
-.scrollData {
-  left: 850px;
-  margin-left: 100px;
-  position: relative;
-
-  td {
-    padding: 0 2px;
-    width: 50px;
-  }
-}
-
-// Address Book Upload Download PopUps
-.AddressBookPopUpArea {
-  width: 325px;
-}
-
-.AddressTile {
-  background-color: #f5f5f5;
-  float: left;
-  height: 115px;
-  margin: 10px;
-  overflow: auto;
-  padding: 7px;
-  width: 175px;
-}
-
-.AddressTileHeader {
-  font-weight: bold;
-  margin-bottom: 15px;
 }

@@ -1,0 +1,49 @@
+// Form Filling
+
+.formFilling-form {
+  vertical-align: top;
+}
+
+.formMinWidth {
+  height: 1px;
+  width: 210px;
+}
+
+.formFilling-preview {
+  padding-left: 2px;
+  text-align: center;
+  vertical-align: top;
+  width: 100%;
+}
+
+.previewButtonFirst {
+  background: url('Images/PreviewButtonFirst.gif') no-repeat;
+}
+
+.previewButtonPrevious {
+  background: url('Images/PreviewButtonPrevious.gif') no-repeat;
+}
+
+.previewButtonNext {
+  background: url('Images/PreviewButtonNext.gif') no-repeat;
+}
+
+.previewButtonLast {
+  background: url('Images/PreviewButtonLast.gif') no-repeat;
+}
+
+.previewButtonSizer {
+  border: 0;
+  display: block;
+  height: 22px;
+  margin-right: 4px;
+  width: 24px;
+}
+
+.previewPageNumberText {
+  padding: 1px 7px0 3px;
+}
+
+.formFillingPreview {
+  border: 1px solid #da710b;
+}

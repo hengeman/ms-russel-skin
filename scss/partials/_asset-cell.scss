@@ -1,0 +1,40 @@
+// AssetCell
+// For "My Library" and the "Select Image" page (via "Form Filling" page)
+
+.assetThumbnail {  // for "Select Image" page
+  background: #fff;
+  height: 120px;
+  padding-top: 20px;
+  text-align: center;
+  vertical-align: top;
+  width: 150px;
+}
+
+.assetThumbnailWithOptions {  // for "My Library"
+  background: #fff;
+  border-left: 1px solid #666;
+  border-top: 1px solid #666;
+  height: 115px;
+  padding: 15px00 15px;
+}
+
+.assetOptions {
+  background: #fff;
+  border-right: 1px solid #666;
+  border-top: 1px solid #666;
+  padding: 0 10px;
+}
+
+.assetCaption {
+  background: #fff;
+  border-bottom: 1px solid #666;
+  border-left: 1px solid #666;
+  border-right: 1px solid #666;
+  color: #0069aa;
+  font-size: 12px;
+  font-weight: bold;
+  height: 30px;
+  padding: 0 6px0 15px;
+  text-align: left;
+  text-decoration: none;
+}

@@ -1,7 +1,7 @@
 // Sidebar credit text
-td.categorySidebarFooter:after {
+.categorySidebarFooter:after {
   color: #aaa;
   content: 'Powered by Perivan';
-  font-size: 85%;
+  font-size: .7em;
   padding-left: 2px;
 }
