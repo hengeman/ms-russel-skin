@@ -1,0 +1,65 @@
+.site-header {
+  border-bottom: 5px solid $col-brand-grey;
+  padding: 1em $page-padding 0;
+  position: relative;
+
+  a {
+    border-bottom: 5px solid #fff;
+    color: $col-text;
+    margin: 0 .3em;
+    padding-bottom: 3px;
+
+    &.current {
+      border-bottom: 3px solid $col-brand-grey;
+    }
+
+    span {
+      $size: 1.4em;
+
+      background-color: $col-brand-orange;
+      border-radius: 100%;
+      color: #fff;
+      display: inline-block;
+      height: $size;
+      padding-top: $size - 1.33em;
+      text-align: center;
+      width: $size;
+    }
+  }
+
+  > * {
+    display: inline-block;
+    margin: 0 1em;
+  }
+
+  .site-header__search {
+    $size: 40px;
+
+    background-color: $col-brand-blue;
+    height: $size;
+    // overflow: hidden;
+    position: relative;
+    vertical-align: bottom;
+    width: $size;
+
+    &:hover {
+      // overflow: visible;
+
+      > div {
+        opacity: 1;
+        transition-delay: 0s;
+        visibility: visible;
+      }
+    }
+
+    > div {
+      background: inherit;
+      opacity: 0;
+      padding-top: 10px;
+      position: absolute;
+      top: 100%;
+      visibility: hidden;
+      width: 100%;
+    }
+  }
+}

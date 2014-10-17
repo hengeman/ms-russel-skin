@@ -1,16 +1,19 @@
 @import 'modules/colors';
+@import 'modules/sizes';
 
 @import 'vendor/base.scss';
 
 @import 'partials/universal';
+
+@import 'partials/links';
 @import 'partials/typography';
 @import 'partials/site-button';
-@import 'partials/separators';
 
 @import 'partials/error';
 @import 'partials/warning';
 
 @import 'partials/page';
+@import 'partials/separators';
 
 //
 // Sections
@@ -18,6 +21,8 @@
 
 @import 'partials/category-breadcrumbs';
 
+// Site header insert
+@import 'partials/site-header';
 // Pageflex navbar at top of page (start, basket, etc)
 @import 'partials/navbar';
 

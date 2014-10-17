@@ -24,23 +24,25 @@
       /// ItemOrItems.Text = (shoppingCount == 1) ? "item" : "items";
     }
   }
+
 </script>
 <header class="site-header">
   <img class="site-header__store-logo" src="http://FIXME" alt="The Marketing Store"/>
 
-  <nav class="site-header__links">
-    <a href="UserContentStart.aspx">Home</a>
-    <a href="UserContentShoppingCart.aspx">My basket
-      <span class="site-header__basket-num">
-        <asp:Label id="numCart" CssClass="numCart" runat="server"/>
-      </span>
-    </a>
-    <a href="UserContentOrders.aspx">My orders</a>
-    <a href="UserContentProfile.aspx">My profile</a>
-    <a href="Login.aspx?logout=1">Log out</a>
-  </nav>
+  <a href="UserContentStart.aspx">Home</a>
+  <a href="UserContentShoppingCart.aspx">My basket
+    <span class="site-header__basket-num">
+      <asp:Label id="numCart" CssClass="numCart" runat="server"/>
+    </span>
+  </a>
+  <a href="UserContentOrders.aspx">My orders</a>
+  <a href="UserContentProfile.aspx">My profile</a>
+  <a href="Login.aspx?logout=1">Log out</a>
 
   <section class="site-header__search">
+    <div>
+      foooooo
+    </div>
   </section>
 
   <img class="site-header__russel-logo" src="http://FIXME" alt="Russel Wealth Management" />

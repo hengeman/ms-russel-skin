@@ -1,15 +1,21 @@
-$col-primary: #228;
-$col-secondary: #659abc;
-$col-tint: #eea500;
+// Core colour palette
+$col-brand-grey: #5f6062;
+$col-brand-orange: #f57e20;
+$col-brand-blue: #79bde8;
+$col-brand-black: #231f20;
 
-$col-text: #333;
+// Secondary colour palette
+$col-brand-warm-grey: #a49a94;
+$col-brand-beige: #dbd8bd;
 
-$col-bg-grad-top: #bbb;
-$col-bg-grad-btm: #eee;
+//
+// Mappings
+//
+
+$col-text: $col-brand-black;
+
+$col-bg-grad-top: $col-brand-beige;
+$col-bg-grad-btm: lighten($col-brand-beige, 10);
 
 // Bits
-$col-button-bg: $col-secondary;
-
-// Sections
-$col-sidebar-search-bg: hotpink;
-$col-sidebar-category-bg: hotpink;
+$col-button-bg: $col-brand-blue;
