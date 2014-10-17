@@ -27,25 +27,30 @@
 
 </script>
 <header class="site-header">
-  <img class="site-header__store-logo" src="http://FIXME" alt="The Marketing Store"/>
+  <div class="site-header__store-logo">
+    <img alt="The Marketing Store" src="/Custom/Media/images/logo-mstore.svg"/>
+  </div>
 
-  <a href="UserContentStart.aspx">Home</a>
-  <a href="UserContentShoppingCart.aspx">My basket
-    <span class="site-header__basket-num">
-      <asp:Label id="numCart" CssClass="numCart" runat="server"/>
-    </span>
-  </a>
-  <a href="UserContentOrders.aspx">My orders</a>
-  <a href="UserContentProfile.aspx">My profile</a>
-  <a href="Login.aspx?logout=1">Log out</a>
+  <nav class="site-header__nav">
+    <a href="UserContentStart.aspx">Home</a>
+    <a href="UserContentShoppingCart.aspx">My basket
+      <span class="site-header__basket-num">
+        <asp:Label id="numCart" CssClass="numCart" runat="server"/>
+      </span>
+    </a>
+    <a href="UserContentOrders.aspx">My orders</a>
+    <a href="UserContentProfile.aspx">My profile</a>
+    <a href="Login.aspx?logout=1">Log out</a>
 
-  <section class="site-header__search">
-    <div>
-      <div class="site-header__search-input">
-        <a href="javascript:__doPostBack('btnSearch','')">GO</a>
+    <section class="site-header__search">
+      <div>
+        <div class="site-header__search-input">
+          <a href="javascript:__doPostBack('btnSearch','')">GO</a>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <img class="site-header__russel-logo" src="http://FIXME" alt="Russel Wealth Management" />
+    <img class="site-header__russel-logo" alt="Russel Wealth Management"
+    src="/Custom/Media/images/logo-russell-wm.svg" />
+  </nav>
 </header>

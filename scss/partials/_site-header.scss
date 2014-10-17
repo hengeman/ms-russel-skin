@@ -3,14 +3,37 @@
   padding: 1em $page-padding 0;
   position: relative;
 
+  .site-header__store-logo {
+    border-left: 5px solid #fff;
+    border-right: 5px solid #fff;
+    margin: 0;
+    position: relative;
+    top: 5px;
+    vertical-align: bottom;
+    width: 220px;
+
+    img {
+      border-bottom: 5px solid $col-brand-orange;
+      padding-bottom: 5px;
+    }
+  }
+}
+
+.site-header__nav {
+  bottom: 0;
+  position: absolute;
+  right: 0;
+
   > a {
-    border-bottom: 5px solid #fff;
     color: $col-text;
-    margin: 0 .3em;
-    padding-bottom: 3px;
+    margin: 0 .5em;
+    padding-bottom: 7px;
+    position: relative;
+    top: 2px;
 
     &.current {
-      border-bottom: 3px solid $col-brand-grey;
+      border-bottom: 5px solid $col-brand-grey;
+      padding-bottom: 2px;
     }
 
     span {
@@ -32,59 +55,69 @@
     margin: 0 1em;
   }
 
-  .site-header__search {
-    $size: 40px;
-
-    background-color: $col-brand-blue;
-    height: $size;
-    position: relative;
+  img {
+    padding-bottom: 5px;
     vertical-align: bottom;
-    width: $size;
+    width: 200px;
+  }
+}
 
-    &:hover {
-      // overflow: visible;
+.site-header__search {
+  $size: 40px;
 
-      > div {
-        opacity: 1;
-        transition-delay: 0s;
-        visibility: visible;
-      }
-    }
+  background-color: $col-brand-blue;
+  background-image: url('/Custom/Media/images/search.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 60%;
+  height: $size;
+  position: relative;
+  vertical-align: bottom;
+  width: $size;
+
+  &:hover {
+    // overflow: visible;
 
     > div {
-      background: inherit;
-      opacity: 0;
-      padding-top: 10px;
-      position: absolute;
-      top: 100%;
-      visibility: hidden;
-      width: 100%;
+      opacity: 1;
+      transition-delay: 0s;
+      visibility: visible;
     }
   }
 
-  .site-header__search-input {
-    background: inherit;
-    height: 33px;
-    padding: 4px;
-    position: relative;
-    width: 150px;
+  > div {
+    background-color: $col-brand-blue;
+    opacity: 0;
+    padding-top: 10px;
+    position: absolute;
+    top: 100%;
+    visibility: hidden;
+    width: 100%;
+  }
+}
 
-    * {
-      border: 2px solid #fff;
-      height: 25px;
-      position: absolute;
-      top: 4px;
-    }
+.site-header__search-input {
+  background-color: $col-brand-blue;
+  height: 33px;
+  padding: 4px;
+  position: relative;
+  width: 150px;
 
-    input {
-      width: 110px;
-    }
+  * {
+    border: 2px solid #fff;
+    height: 25px;
+    position: absolute;
+    top: 4px;
+  }
 
-    a {
-      color: #fff;
-      left: 113px;
-      padding: 3px;
-      width: 33px;
-    }
+  input {
+    width: 111px;
+  }
+
+  a {
+    color: #fff;
+    left: 115px;
+    padding: 3px;
+    width: 31px;
   }
 }
