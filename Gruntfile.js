@@ -11,12 +11,12 @@ module.exports = function(grunt) {
     sass: {
       dev: {
         files: {
-          'output/CSS/Site.css': 'scss/main.scss'
+          'output/css/site.css': 'scss/main.scss'
         }
       },
       prod: {
         files: {
-          'output/CSS/Site.css': 'scss/main.scss'
+          'output/css/site.css': 'scss/main.scss'
         },
         options: {
           outputStyle: 'compressed'
@@ -44,7 +44,7 @@ module.exports = function(grunt) {
     concat: {
       dist: {
         src: jsFiles,
-        dest: 'output/JS/main.js'
+        dest: 'output/js/main.js'
       }
     },
 
@@ -52,8 +52,17 @@ module.exports = function(grunt) {
     uglify: {
       prod: {
         files: {
-          'output/JS/main.min.js': 'output/JS/main.js'
+          'output/js/main.min.js': 'output/js/main.js'
         }
+      }
+    },
+
+    // Copy inserts to output folder
+    // May be replaced with templates one day
+    copy: {
+      main: {
+        src: 'inserts/*',
+        dest: 'output/'
       }
     },
 
@@ -81,6 +90,10 @@ module.exports = function(grunt) {
       js: {
         files: jsFiles,
         tasks: ['jshint:dev', 'concat', 'ftp-deploy:dev']
+      },
+      inserts: {
+        files: 'inserts/**/*',
+        tasks: ['copy', 'ftp-deploy:dev']
       }
     }
   });
@@ -88,10 +101,10 @@ module.exports = function(grunt) {
   grunt.registerTask(
     'default',
     'Compile files and watch',
-    ['sass:dev', 'jshint:dev', 'concat', 'ftp-deploy:dev', 'watch']);
+    ['sass:dev', 'jshint:dev', 'concat', 'copy', 'ftp-deploy:dev', 'watch']);
 
   grunt.registerTask(
     'deploy',
     'Compile files ready for deployment',
-    ['sass:prod', 'jshint:prod', 'concat', 'uglify']);
+    ['sass:prod', 'jshint:prod', 'concat', 'uglify', 'copy']);
 };
