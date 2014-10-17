@@ -41,7 +41,9 @@
 
   <section class="site-header__search">
     <div>
-      foooooo
+      <div class="site-header__search-input">
+        <a href="javascript:__doPostBack('btnSearch','')">GO</a>
+      </div>
     </div>
   </section>
 

@@ -3,7 +3,7 @@
   padding: 1em $page-padding 0;
   position: relative;
 
-  a {
+  > a {
     border-bottom: 5px solid #fff;
     color: $col-text;
     margin: 0 .3em;
@@ -37,7 +37,6 @@
 
     background-color: $col-brand-blue;
     height: $size;
-    // overflow: hidden;
     position: relative;
     vertical-align: bottom;
     width: $size;
@@ -60,6 +59,32 @@
       top: 100%;
       visibility: hidden;
       width: 100%;
+    }
+  }
+
+  .site-header__search-input {
+    background: inherit;
+    height: 33px;
+    padding: 4px;
+    position: relative;
+    width: 150px;
+
+    * {
+      border: 2px solid #fff;
+      height: 25px;
+      position: absolute;
+      top: 4px;
+    }
+
+    input {
+      width: 110px;
+    }
+
+    a {
+      color: #fff;
+      left: 113px;
+      padding: 3px;
+      width: 33px;
     }
   }
 }
