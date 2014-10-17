@@ -1,5 +1,5 @@
 // Core colour palette
-$col-brand-grey: #5f6062;
+$col-brand-grey: lighten(#5f6062, 10);
 $col-brand-orange: #f57e20;
 $col-brand-blue: #79bde8;
 $col-brand-black: #231f20;
@@ -14,8 +14,10 @@ $col-brand-beige: #dbd8bd;
 
 $col-text: $col-brand-black;
 
-$col-bg-grad-top: $col-brand-beige;
-$col-bg-grad-btm: lighten($col-brand-beige, 10);
+$col-box-outline: #bec5c7;
+
+$col-bg-grad-top: #e3e6e6;
+$col-bg-grad-btm: #fff;
 
 // Bits
 $col-button-bg: $col-brand-blue;
