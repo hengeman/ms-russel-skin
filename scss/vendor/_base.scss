@@ -86,7 +86,7 @@ td.basic {
   color: #fff;
   cursor: pointer;
   font-size: 10px;
-  padding: 3px 15px00;
+  padding: 3px 15px 0;
   text-decoration: none;
   text-transform: none;
   white-space: nowrap;
@@ -110,7 +110,7 @@ td.basic {
 
 .orderSummaryCell {
   border: 1px solid #da710b;
-  padding: 4px0 4px 8px;
+  padding: 4px 0 4px 8px;
 }
 
 // Common classes for content inside areas
@@ -121,12 +121,12 @@ td.basic {
 
 .fieldHeader {
   font-weight: bold;
-  padding: 12px0 3px0;
+  padding: 12px 0 3px;
   vertical-align: top;
 }
 
 .fieldCell { // for read-only form fields
-  padding: 0 15px 3px0;
+  padding: 0 15px 3px 0;
   vertical-align: top;
 }
 
@@ -144,7 +144,7 @@ td.basic {
 .dataListChoicesHeader,
 .dataListChoices {
   border-bottom: 1px solid #da710b;
-  padding: 0 15px 2px0;
+  padding: 0 15px 2px 0;
 }
 
 .dataListChoicesHeader {
@@ -153,11 +153,11 @@ td.basic {
 
 .simpleTableHeader {
   font-weight: bold;
-  padding: 0 15px 2px0;
+  padding: 0 15px 2px 0;
 }
 
 .simpleTable {
-  padding: 0 15px 2px0;
+  padding: 0 15px 2px 0;
 }
 
 .MultiShippingButton {
@@ -184,7 +184,7 @@ td.basic {
   background: #eee;
   font-size: 8px;
   font-weight: bold;
-  padding: 0 15px 2px0;
+  padding: 0 15px 2px 0;
 }
 
 .areaGraphicCartStep,

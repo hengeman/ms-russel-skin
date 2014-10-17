@@ -28,8 +28,7 @@
   width: 365px;
 
   img {
-    height: expression(this.scrollHeight > 79 ? "80px" : "auto"); // IE
-    max-height: 80px; // Good browsers
+    max-height: 80px;
   }
 }
 
