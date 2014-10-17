@@ -39,6 +39,11 @@ will alert you to errors in your Javascript and SCSS.
 * Use spaces for indentation, not tabs.
 * Use 2 space indentation.
 
+### HTML Style
+
+* Use [BEM style](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
+  class names.
+
 ### JS style
 
 * Don't polute the global namespace with variables. Wrap your code in

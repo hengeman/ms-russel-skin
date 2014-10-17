@@ -21,19 +21,27 @@
     {
       int shoppingCount = GetShoppingCartCount();
       numCart.Text = shoppingCount.ToString();
-      ItemOrItems.Text = (shoppingCount == 1) ? "item" : "items";
+      /// ItemOrItems.Text = (shoppingCount == 1) ? "item" : "items";
     }
   }
 </script>
-<span>
-  <asp:Label id="numCart" CssClass="numCart" runat="server"/>
-</span>
-<span>
-  <asp:Label id="ItemOrItems" runat="server"/>
-</span>
+<header class="site-header">
+  <img class="site-header__store-logo" src="http://FIXME" alt="The Marketing Store"/>
 
-<PFWeb:LinkButton id="btnViewCart" name="btnViewCart" runat="server" Layout="nested" CssClass="siteButton" UseTrueLink="true" Link="UserContentShoppingCart.aspx" Text="View Your Basket" />
+  <nav class="site-header__links">
+    <a href="UserContentStart.aspx">Home</a>
+    <a href="UserContentShoppingCart.aspx">My basket
+      <span class="site-header__basket-num">
+        <asp:Label id="numCart" CssClass="numCart" runat="server"/>
+      </span>
+    </a>
+    <a href="UserContentOrders.aspx">My orders</a>
+    <a href="UserContentProfile.aspx">My profile</a>
+    <a href="Login.aspx?logout=1">Log out</a>
+  </nav>
 
-<PFWeb:LinkButton id="btnViewOrder" name="btnViewOrder" runat="server" Layout="nested" CssClass="siteButton" UseTrueLink="true" Link="UserContentOrders.aspx" Text="View Your Orders" />
+  <section class="site-header__search">
+  </section>
 
-<PFWeb:LinkButton id="btnViewProfile" name="btnViewProfile" runat="server" Layout="nested" CssClass="siteButton" UseTrueLink="true" Link="UserContentProfile.aspx" Text="View Your Profile" />
+  <img class="site-header__russel-logo" src="http://FIXME" alt="Russel Wealth Management" />
+</header>
