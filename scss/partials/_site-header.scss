@@ -33,6 +33,7 @@
 
   > a {
     color: $col-text;
+    font-size: .95em;
     margin: 0 .5em;
     padding-bottom: 7px;
     position: relative;
@@ -50,8 +51,9 @@
       border-radius: 100%;
       color: #fff;
       display: inline-block;
+      font-size: .95em;
       height: $size;
-      padding-top: $size - 1.33em;
+      padding-top: .08em;
       text-align: center;
       width: $size;
     }

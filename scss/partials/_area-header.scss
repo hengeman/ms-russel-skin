@@ -1,46 +1,6 @@
 // Area at top of content. i.e. 'Start a document'
 
+.areaComment,
 .areaHeader {
-  background: #0069aa;
-  padding: 10px 1px 5px 5px;
-  vertical-align: middle;
-  width: 100%;
-}
-
-.areaTitle {
-  color: #fff;
-  font-size: 15px;
-  font-weight: bold;
-  padding: 5px 5px 5px 15px;
-  text-transform: none;
-  white-space: nowrap;
-}
-
-.areaTitleLink {
-  font-size: 10px;
-  padding-top: 6px;
-}
-
-.areaTitleLink,
-.areaTitleLinkRollover { // Because pageflex doesn't understand :hover
-  color: #fff;
-  font-size: 10px;
-  padding: 0 15px 0 5px;
-  text-decoration: none;
-  text-transform: none;
-}
-
-.areaTitleLinkRollover { // Because pageflex doesn't understand :hover
-  color: #7b235d;
-}
-
-.areaComment {
-  background: #0069aa;
-  color: #fff;
-  font-size: 10px;
-  font-weight: bold;
-  height: 33px;
-  padding: 3px 15px 0;
-  text-transform: none;
-  width: 100%;
+  display: none;
 }

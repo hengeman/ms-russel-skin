@@ -20,29 +20,25 @@
 //
 
 @import 'partials/category-breadcrumbs';
+@import 'partials/welcome-note';
 
-// Site header insert
 @import 'partials/site-header';
 // Pageflex navbar at top of page (start, basket, etc)
 @import 'partials/navbar';
 
 // Content area
 @import 'partials/area';
-// Area at top of content. i.e. 'Start a document'
 @import 'partials/area-header';
 
-// Sidebar search
 @import 'partials/sidebar-search';
-// Sidebar categories
 @import 'partials/sidebar-category';
 
-// Page right
+// Page right insert
 @import 'partials/site-right';
 
 // Tables of orders and items (i.e. order history?)
 @import 'partials/item-table';
 
-// Login page
 @import 'partials/login';
 
 // ???????? FIXME
