@@ -4,13 +4,9 @@ html,
 body.page {
   background: #fff !important;
   margin: 0;
+  min-width: 900px;
 }
 
 .pageContent {
   padding: $page-padding;
 }
-
-.pageMinimumWidth {
-  width: 700px;
-}
-
