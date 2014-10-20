@@ -1,0 +1,28 @@
+.site-footer__block {
+  background: $col-brand-black;
+  padding: ($page-padding * 2) $page-padding;
+  width: 100%;
+
+  img {
+    width: 200px;
+  }
+}
+
+.site-footer__nav {
+  padding: 10px $page-padding;
+
+  section {
+    border-left: 1px solid $col-brand-warm-grey;
+    display: inline-block;
+    padding: 0 .8em;
+
+    a {
+      font-size: .9em;
+    }
+
+    &:first-child {
+      border: 0;
+      padding-left: 0;
+    }
+  }
+}
