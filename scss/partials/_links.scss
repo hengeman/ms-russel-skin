@@ -1,8 +1,8 @@
 a {
-  color: $col-brand-blue;
+  color: $col-brand-link;
   text-decoration: none;
 
   &:hover {
-    color: darken($col-brand-blue, 10);
+    color: darken($col-brand-link, 10);
   }
 }

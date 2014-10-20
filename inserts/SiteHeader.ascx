@@ -27,6 +27,8 @@
 
 </script>
 <header class="site-header">
+  <img src="/Custom/Media/images/stripes.svg" alt="Russel Stripes"
+       class="site-header__stripes"/>
   <div class="site-header__store-logo">
     <img alt="The Marketing Store" src="/Custom/Media/images/logo-mstore.svg"/>
   </div>

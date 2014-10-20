@@ -1,12 +1,17 @@
 // Core colour palette
-$col-brand-grey: lighten(#5f6062, 10);
-$col-brand-orange: #f57e20;
-$col-brand-blue: #79bde8;
-$col-brand-black: #231f20;
+$col-brand-blue: #6ad;
+$col-brand-grey: #5c5c5c;
+$col-brand-orange: #d60;
+
+$col-brand-link: #267bb8;
 
 // Secondary colour palette
-$col-brand-warm-grey: #a49a94;
 $col-brand-beige: #dbd8bd;
+$col-brand-black: #333;
+$col-brand-warm-grey: #9e9e9e;
+$col-brand-stone: #a3abad;
+$col-brand-light-grey: #e9e5e3;
+$col-brand-tan: #ccb;
 
 //
 // Mappings
@@ -14,7 +19,7 @@ $col-brand-beige: #dbd8bd;
 
 $col-text: $col-brand-black;
 
-$col-box-outline: #bec5c7;
+$col-box-outline: $col-brand-warm-grey;
 
 $col-bg-grad-top: #e3e6e6;
 $col-bg-grad-btm: #fff;
