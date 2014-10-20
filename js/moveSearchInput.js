@@ -3,5 +3,7 @@
   var headerSearch = document.querySelector('.site-header__search-input'),
       searchInput  = document.querySelector('#txtSearch');
 
-  headerSearch.insertBefore(searchInput, headerSearch.firstChild);
+  if (searchInput) {
+    headerSearch.insertBefore(searchInput, headerSearch.firstChild);
+  }
 }());
