@@ -9,6 +9,10 @@
   width: 210px;
 }
 
+.formFillingPreview {
+  @include double-border();
+}
+
 .formFilling-preview {
   padding-left: 2px;
   text-align: center;
@@ -16,34 +20,41 @@
   width: 100%;
 }
 
-.previewButtonFirst {
-  background: url('Images/PreviewButtonFirst.gif') no-repeat;
+#vcrControls {
+  $size: 25px;
+
+  padding-bottom: 5px;
+
+  a {
+    display: block;
+    height: $size;
+    width: $size;
+  }
+
+  td {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: $size $size;
+  }
+
+  .previewButtonFirst {
+    background-image: url('http://russellinvestments.roi360.co.uk/Custom/Media/images/first.svg');
+  }
+
+  .previewButtonPrevious {
+    background-image: url('http://russellinvestments.roi360.co.uk/Custom/Media/images/back.svg');
+  }
+
+  .previewButtonNext {
+    background-image: url('http://russellinvestments.roi360.co.uk/Custom/Media/images/next.svg');
+  }
+
+  .previewButtonLast {
+    background-image: url('http://russellinvestments.roi360.co.uk/Custom/Media/images/last.svg');
+  }
 }
 
-.previewButtonPrevious {
-  background: url('Images/PreviewButtonPrevious.gif') no-repeat;
-}
-
-.previewButtonNext {
-  background: url('Images/PreviewButtonNext.gif') no-repeat;
-}
-
-.previewButtonLast {
-  background: url('Images/PreviewButtonLast.gif') no-repeat;
-}
-
-.previewButtonSizer {
-  border: 0;
-  display: block;
-  height: 22px;
-  margin-right: 4px;
-  width: 24px;
-}
-
+// Page 1 of 3
 .previewPageNumberText {
-  padding: 1px 7px 0 3px;
-}
-
-.formFillingPreview {
-  border: 1px solid #da710b;
+  padding: 3px 1em;
 }
