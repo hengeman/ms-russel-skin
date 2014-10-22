@@ -13,6 +13,7 @@
   .site-header__store-logo {
     border-left: 5px solid #fff;
     border-right: 5px solid #fff;
+    display: block;
     height: 36px;
     margin: 0;
     position: relative;
@@ -41,7 +42,7 @@
     top: 2px;
 
     &.current {
-      border-bottom: 5px solid $col-brand-grey;
+      border-bottom: 5px solid $col-brand-warm-grey;
       padding-bottom: 2px;
     }
 
