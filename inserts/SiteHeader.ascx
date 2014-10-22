@@ -31,12 +31,12 @@
   <img src="/Custom/Media/images/stripes.svg" alt="Russel Stripes"
        class="site-header__stripes"/>
 
-  <a href="UserContentStart.aspx" class="site-header__store-logo">
+  <a href="UserContentStart.aspx?category=1" class="site-header__store-logo">
     <img alt="The Marketing Store" src="/Custom/Media/images/logo-mstore.svg"/>
   </a>
 
   <nav class="site-header__nav">
-    <a href="UserContentStart.aspx">Home</a>
+    <a href="UserContentStart.aspx?category=1">Home</a>
     <a href="UserContentShoppingCart.aspx">My basket
       <span class="site-header__basket-num">
         <asp:Label id="numCart" CssClass="numCart" runat="server"/>
