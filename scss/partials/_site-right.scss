@@ -1,13 +1,12 @@
 .site-right {
-  margin: 0 0 0$page-padding;
+  margin: $welcome-message-height 0 0 $page-padding;
 }
 
 .site-right__box {
+  @include double-border();
   background-color: $col-brand-beige;
   background-image: linear-gradient(to bottom, $col-bg-grad-top, $col-bg-grad-btm);
-  border: 1px solid #fff;
   margin-bottom: 15px;
-  outline: 1px solid $col-box-outline;
   padding: 20px;
   width: 200px;
 }

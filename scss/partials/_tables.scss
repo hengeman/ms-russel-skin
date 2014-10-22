@@ -1,0 +1,20 @@
+.itemTable {
+  border: 0;
+  padding: 15px;
+}
+
+#roiProdList_gridViewProducts {
+  @include double-border();
+
+  th {
+    background-color: $col-table-bg-th;
+  }
+
+  tr td {
+    background-color: $col-table-bg-odd;
+  }
+
+  tr:nth-child(2n) td {
+    background-color: $col-table-bg-even;
+  }
+}

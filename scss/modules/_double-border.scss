@@ -1,0 +1,4 @@
+@mixin double-border() {
+  border: 1px solid #fff;
+  outline: 1px solid $col-box-outline;
+}

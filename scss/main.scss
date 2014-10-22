@@ -1,8 +1,16 @@
+// Variables
 @import 'modules/colors';
 @import 'modules/sizes';
 
+// Mixings
+@import 'modules/double-border';
+
+// Vendor
 @import 'vendor/base.scss';
 
+//
+// Partials
+//
 @import 'partials/universal';
 
 @import 'partials/links';
@@ -15,15 +23,15 @@
 @import 'partials/page';
 @import 'partials/separators';
 
-//
 // Sections
-//
 
 @import 'partials/category-breadcrumbs';
-@import 'partials/welcome-note';
+@import 'partials/welcome-message';
 
 @import 'partials/site-header';
 @import 'partials/site-footer';
+
+@import 'partials/home-cat';
 
 // Pageflex navbar at top of page (start, basket, etc)
 @import 'partials/navbar';
@@ -39,7 +47,7 @@
 @import 'partials/site-right';
 
 // Tables of orders and items (i.e. order history?)
-@import 'partials/item-table';
+@import 'partials/tables';
 
 @import 'partials/login';
 

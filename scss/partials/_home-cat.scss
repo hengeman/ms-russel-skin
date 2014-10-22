@@ -1,0 +1,20 @@
+.home-cat__row {
+  margin-bottom: 15px;
+  width: 100%;
+
+  a {
+    display: inline-block;
+    padding: 0 20px 10px;
+    vertical-align: top;
+    width: 180px;
+
+    &:nth-child(2) {
+      margin: 0 40px;
+    }
+
+    h2 {
+      margin: 5px;
+      text-align: center;
+    }
+  }
+}
