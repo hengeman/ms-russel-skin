@@ -1,14 +1,18 @@
-// Form Filling
+// Look at this ID! Who on earth thought this was a good idea...?
+#ctl00_ctl00_ContentPlaceHolderBody_StepArea1_ContentPlaceHolderStepArea_InputFields_InputFields {
+  > div {
+    margin-bottom: 15px;
+  }
 
-.formFilling-form {
-  vertical-align: top;
+  p,
+  input {
+    margin: 3px 8px 3px 0;
+  }
 }
 
-.formMinWidth {
-  height: 1px;
-  width: 210px;
-}
-
+//
+// Document preview
+//
 .formFillingPreview {
   @include double-border();
 }
@@ -20,6 +24,9 @@
   width: 100%;
 }
 
+//
+// Preview page buttons
+//
 #vcrControls {
   $size: 25px;
 
@@ -54,7 +61,9 @@
   }
 }
 
-// Page 1 of 3
+//
+// Page 1 of 3 text
+//
 .previewPageNumberText {
   padding: 3px 1em;
 }
