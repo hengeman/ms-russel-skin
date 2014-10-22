@@ -1,134 +1,40 @@
-.stepArea {
-  background: #fff;
-  padding: 11px 13px;
-}
-
-.stepAreaFooter {
-  background: #e8ebea;
-  vertical-align: middle;
-}
-
-.stepLabel {
-  font-weight: bold;
-}
-
-.currentStepIndicator {
-  color: #fff;
-  font-size: 10px;
-  font-weight: bold;
-  padding-left: 5px;
-}
-
-.stepAreaHeaderNextPrevControls,
 .stepAreaFooterNextPrevControls {
-  background: url('Images/StepNextPrevBackground.gif') repeat-x;
-  border-width: 0 1px;
-  padding: 0 4px;
-}
-
-.stepNextPrevLabel {
-  font-size: 9px;
-  height: 26px;
-  padding-top: 4px;
-  vertical-align: middle;
-}
-
-.stepNextPrevLabel,
-.stepNextPrevLabelRollover {
-  color: #000;
-  font-size: 9px;
-  font-weight: bold;
-  padding: 0 5px;
-  text-decoration: none;
-  text-transform: none;
-  white-space: nowrap;
-}
-
-.stepNextPrevLabelRollover {
-  color: #0069aa;
-  cursor: pointer;
+  float: none !important;
 }
 
 .stepControlsHeader {
-  background-color: #0069aa;
-  padding: 5px;
-}
-
-.stepControlsTitle {
-  color: #fff;
-  font-size: 14px;
-  font-weight: bold;
-  padding-left: 20px;
-  padding-top: 12px;
-  text-transform: none;
+  display: none;
 }
 
 .stepControls {
-  background-color: #80a1b6;
-  padding-right: 30px;
-}
+  @include side-box();
 
-.stepControl {
-  background: #333;
-  border-left: 18px solid #333;
-  height: 20px;
-  padding: 3px 0 16px;
-  vertical-align: top;
-}
-
-.stepControlNumber,
-.stepControlNumberRollover,
-.stepControlNumberSelected {
-  background: #fff;
-  color: #0069aa;
-  font-size: 14px;
-  font-weight: bold;
-  height: 21px;
-  padding: 0 10px 0 31px;
-  vertical-align: middle;
-  width: 31px;
-}
-
-.stepControlNumberRollover {
-  background-color: #ededea;
-  background-position: top left;
-  background-repeat: no-repeat;
-}
-
-.stepControlNumberSelected {
-  background-color: #ededea;
-  background-position: top left;
-  background-repeat: no-repeat;
-  color: #1b8b75;
-}
-
-.stepControlLabel,
-.stepControlLabelRollover,
-.stepControlLabelSelected {
-  font-size: 14px;
-  font-weight: bold;
-  padding: 0 10px 0 8px;
-  vertical-align: middle;
-}
-
-.stepControlLabel,
-.stepControlLabelSelected {
-  color: #fff;
-  font-size: 14px;
-  font-weight: bold;
-  text-decoration: none;
-  text-transform: none;
   white-space: nowrap;
-}
 
-.stepControlLabelSelected {
-  color: #fff;
-}
+  a {
+    font-size: 1.1em;
+  }
 
-.stepCart {
-  padding-right: 2px;
-}
+  tr td {
+    padding: 0 0 10px 5px;
+    position: relative;
+  }
 
-.stepCancel {
-  padding-right: 3px;
+  tr:last-child td {
+    padding-bottom: 0;
+  }
+
+  .stepControlLabelSelected:before {
+    content: '▶';
+    font-size: 10px;
+    left: -10px;
+    position: absolute;
+    top: 2px;
+  }
+
+  .stepControlNumberSelected,
+  .stepControlNumberRollover,
+  .stepControlNumber {
+    display: none;
+  }
 }

@@ -1,0 +1,6 @@
+@mixin side-box() {
+  @include double-border();
+  background-color: $col-bg-grad-top;
+  background-image: linear-gradient(to bottom, $col-bg-grad-top, $col-bg-grad-btm);
+  padding: 20px;
+}

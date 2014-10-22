@@ -3,10 +3,7 @@
 }
 
 .site-right__box {
-  @include double-border();
-  background-color: $col-brand-beige;
-  background-image: linear-gradient(to bottom, $col-bg-grad-top, $col-bg-grad-btm);
+  @include side-box();
   margin-bottom: 15px;
-  padding: 20px;
   width: 200px;
 }
