@@ -5,5 +5,7 @@
 
   if (searchInput) {
     headerSearch.insertBefore(searchInput, headerSearch.firstChild);
+  } else {
+    document.querySelector('.site-header__search').style.display = 'none';
   }
 }());
