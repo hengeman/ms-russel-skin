@@ -1,0 +1,22 @@
+#ReadOnlyFields_InputFields {
+  padding: 15px 0;
+}
+
+.FORM_VIEW { // Why are we shouting?
+  @include side-box();
+  white-space: nowrap;
+
+  tr {
+    display: block;
+    padding: 6px 0 0;
+
+    td {
+      display: inline-block;
+    }
+
+    td:first-child {
+      font-weight: bold;
+      width: 140px;
+    }
+  }
+}

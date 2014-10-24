@@ -24,15 +24,11 @@
 @import 'partials/page';
 @import 'partials/separators';
 
-// Sections
-
 @import 'partials/category-breadcrumbs';
 @import 'partials/welcome-message';
 
 @import 'partials/site-header';
 @import 'partials/site-footer';
-
-@import 'partials/home-cat';
 
 // Pageflex navbar at top of page (start, basket, etc)
 @import 'partials/navbar';
@@ -50,7 +46,12 @@
 // Tables of orders and items (i.e. order history?)
 @import 'partials/tables';
 
+//
+// Specific pages
+//
+@import 'partials/home-cat';
 @import 'partials/login';
+@import 'partials/profile';
 
 // ???????? FIXME
 @import 'partials/catalog';
