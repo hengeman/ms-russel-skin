@@ -30,5 +30,6 @@
     "node"     : true,
 
     "globals"   : {
+      "ga": true
     }
 }
