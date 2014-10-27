@@ -1,13 +1,12 @@
 .warningAreaInlineInfo,
 .warningAreaInlineWarning {
-  background: #0069aa;
-  border: 1px solid #0069aa;
+  background: $col-brand-orange;
+  border: 1px solid $col-brand-orange;
   padding: 14px;
 }
 
 .warningAreaInlineInfo {
-  background: #698e26;
-  border: 1px solid #afd4a9;
+  background: $col-brand-orange;
 }
 
 .warningIconWarning {
