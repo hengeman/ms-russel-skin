@@ -17,7 +17,7 @@ Javascript file HTTP request, rather than many. Here's how to get started:
 5. Install the project dependencies with `npm install` from the project
    directory.
 6. Copy `ftppass.example.json` to `ftppass.json` and edit to contain the
-   correct FTP login details.
+   FTP username and password.
 
 [optional] Install an [editorconfig plugin](http://editorconfig.org/#download)
 for your text editor, if one is available.
