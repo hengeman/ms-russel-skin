@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <root>
-    <data name="Common/TitleBar/Staged" xmlns=""><value>[Staged Content]</value></data>
+    <data name="Common/TitleBar/Staged" xmlns=""><value>[Staged Content] </value></data>
     <data name="Common/TitleBar/Missing" xmlns=""><value>Marketing Store</value></data>
     <data name="Common/NavigationBar/Start" xmlns=""><value>Start</value></data>
     <data name="Common/NavigationBar/ShoppingCart" xmlns=""><value>Shopping Basket</value></data>
