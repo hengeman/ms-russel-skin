@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+    <data name="Common/TitleBar/Staged" xmlns=""><value>[Staged Content]</value></data>
+    <data name="Common/TitleBar/Missing" xmlns=""><value>Marketing Store</value></data>
+    <data name="Common/NavigationBar/Start" xmlns=""><value>Start</value></data>
+    <data name="Common/NavigationBar/ShoppingCart" xmlns=""><value>Shopping Basket</value></data>
+    <data name="Common/NavigationBar/Orders" xmlns=""><value>Orders</value></data>
+    <data name="Common/NavigationBar/Library" xmlns=""><value>My Library</value></data>
+    <data name="Common/NavigationBar/Profile" xmlns=""><value>My Profile</value></data>
+    <data name="Common/NavigationBar/Approvals" xmlns=""><value>Approvals</value></data>
+    <data name="Common/NavigationBar/Login" xmlns=""><value>Login</value></data>
+    <data name="Common/NavigationBar/Logout" xmlns=""><value>Logout</value></data>
+    <data name="Common/NavigationBar/Welcome" xmlns=""><value>Welcome,</value></data>
+    <data name="Common/AreaHeader/Next" xmlns=""><value>Next Step</value></data>
+    <data name="Common/AreaHeader/Previous" xmlns=""><value>Previous</value></data>
+    <data name="Common/AreaHeader/Help" xmlns=""><value>Help</value></data>
+    <data name="Common/ErrorMessage/NoProof" xmlns=""><value>Unable to generate PDF preview</value></data>
+    <data name="Common/Button/EditCurrentDocument" xmlns=""><value>Edit Current Document</value></data>
+    <data name="Common/Button/GoBack" xmlns=""><value>Go Back</value></data>
+    <data name="Common/Button/Accept" xmlns=""><value>Accept</value></data>
+    <data name="Common/Button/OK" xmlns=""><value>OK</value></data>
+    <data name="Common/Button/Cancel" xmlns=""><value>Cancel</value></data>
+    <data name="Common/Button/Reset" xmlns=""><value>Reset</value></data>
+    <data name="Common/Button/Proof" xmlns=""><value>PDF Preview</value></data>
+    <data name="Common/Button/ProofHtml" xmlns=""><value>HTML Preview</value></data>
+    <data name="Common/Button/Submit" xmlns=""><value>Submit</value></data>
+    <data name="Common/Button/SendLink" xmlns=""><value>Send Link</value></data>
+    <data name="Login/Window/Title" xmlns=""><value>Login</value></data>
+    <data name="Login/AreaMain/Title" xmlns=""><value>Login</value></data>
+    <data name="Login/Message/NoMoreAnonymous" xmlns=""><value>You must be logged in to proceed to the page you have requested.</value></data>
+    <data name="Login/Message/PleaseLogin" xmlns=""><value>Please enter a user name and password</value></data>
+    <data name="Login/Label/UserName" xmlns=""><value>User Name</value></data>
+    <data name="Login/Label/Password" xmlns=""><value>Password</value></data>
+    <data name="Login/Label/AutoLogin" xmlns=""><value>Next time log me in automatically</value></data>
+    <data name="Login/Button/Login" xmlns=""><value>Login</value></data>
+    <data name="Login/Button/Cancel" xmlns=""><value>Cancel</value></data>
+    <data name="Login/Label/ExistingUsers" xmlns=""><value>Existing Users</value></data>
+    <data name="Login/Label/NewUsers" xmlns=""><value>New Users</value></data>
+    <data name="Login/Label/ForgotPassword" xmlns=""><value>Forgot Your Password?</value></data>
+    <!-- the button name should be {0} eventually.... -->
+    <data name="Login/Message/CreateAccount" xmlns=""><value>Please enter a new user name and password and click "Create Account".</value></data>
+    <data name="Login/Message/CreateAccountContinue" xmlns=""><value>Please enter a new user name and password and click "Continue".</value></data>
+    <data name="Login/Label/ConfirmPassword" xmlns=""><value>Confirm Password</value></data>
+    <data name="Login/Button/CreateAccount" xmlns=""><value>Create Account</value></data>
+    <data name="Login/Button/CreateAccountContinue" xmlns=""><value>Continue &gt;</value></data>
+    <data name="Login/ErrorMessage/InvalidLogin" xmlns=""><value>Sorry, that combination is not valid.</value></data>
+    <data name="Login/AreaNoSite/Title" xmlns=""><value>Site is not available</value></data>
+    <data name="Login/ErrorMessage/NoSite" xmlns=""><value>Sorry, the site is not currently available</value></data>
+    <data name="Login/ErrorMessage/NewUserLoginNameInUse" xmlns=""><value>Sorry, that login name is already in use.</value></data>
+    <data name="Login/ErrorMessage/NewUserLoginNameMissing" xmlns=""><value>Sorry, you must specify a login name.</value></data>
+    <data name="Login/ErrorMessage/NewUserLoginNameInvalid" xmlns=""><value>Sorry, you must specify a valid login name.</value></data>
+    <data name="Login/ErrorMessage/NewUserPasswordInvalid" xmlns=""><value>Sorry, you must specify a valid password.</value></data>
+    <data name="Login/ErrorMessage/NewUserLoginNameContainsInvalidCharacters" xmlns=""><value>Sorry, that login name contains illegal characters.</value></data>
+    <data name="Login/ErrorMessage/NewUserPasswordMismatch" xmlns=""><value>Sorry, your two password entries didn't match.</value></data>
+    <data name="Login/Message/ShoppingCartsMerged" xmlns=""><value>New items in your shopping basket have been combined with items previously saved there for this account.</value></data>
+    <data name="Start/Window/Title" xmlns=""><value>Start a Document</value></data>
+    <data name="Start/CategorySidebar/Title" xmlns=""><value>Products</value></data>
+    <data name="Start/Button/Search" xmlns=""><value>Search</value></data>
+    <data name="Start/AreaMain/Title" xmlns=""><value>Start a document</value></data>
+    <data name="Start/AreaMain/Comment" xmlns=""><value>Click on a product to begin</value></data>
+    <data name="Start/AccountInfoLabel/EditProfile" xmlns=""><value>Edit my personal profile</value></data>
+    <data name="Start/AccountInfoLabel/ViewOrders" xmlns=""><value>View my orders</value></data>
+    <data name="Start/AccountInfoLabel/ViewShoppingCart" xmlns=""><value>View my shopping basket</value></data>
+    <data name="Start/AccountInfoLabel/EditDocument" xmlns=""><value>Edit current document</value></data>
+    <data name="Start/AccountInfo/Welcome" xmlns=""><value>Welcome,</value></data>
+    <data name="Start/AccountInfo/WelcomePhrase" xmlns=""><value>Welcome, {0}!</value></data>
+    <data name="Start/AccountInfo/YouHave" xmlns=""><value>You have</value></data>
+    <data name="Start/AccountInfo/IncompleteOrder" xmlns=""><value> incomplete order</value></data>
+    <data name="Start/AccountInfo/IncompleteOrders" xmlns=""><value> incomplete orders</value></data>
+    <data name="Start/AccountInfo/Order" xmlns=""><value> order</value></data>
+    <data name="Start/AccountInfo/Orders" xmlns=""><value> orders</value></data>
+    <data name="Start/AccountInfo/Pending" xmlns=""><value>pending</value></data>
+    <data name="Start/AccountInfo/YourShoppingCartHas" xmlns=""><value>Your shopping basket has</value></data>
+    <data name="Start/AccountInfo/Item" xmlns=""><value> item</value></data>
+    <data name="Start/AccountInfo/Items" xmlns=""><value> items</value></data>
+    <data name="Start/AccountInfo/ADocumentIsOpen" xmlns=""><value>A document is open</value></data>
+    <data name="Start/Message/NoProductsInCategory" xmlns=""><value>No products are currently available in this category</value></data>
+    <data name="Start/Message/NoProductSearchResults" xmlns=""><value>No matching products or categories were found.</value></data>
+    <data name="Start/SearchResults/Title" xmlns=""><value>Search Results for</value></data>
+    <data name="Start/Label/ListView" xmlns=""><value>Show List View</value></data>
+    <data name="Start/Label/ThumbnailView" xmlns=""><value>Show Thumbnail View</value></data>
+    <data name="Start/Label/MapView" xmlns=""><value>Index</value></data>
+    <data name="Start/Warning/cantAssignExternDocID" xmlns=""><value>Unable to create document because of an internal error.</value></data>
+    <data name="Start/Warning/EditStepLicense" xmlns=""><value>Unable to edit document</value></data>
+    <data name="ShoppingCart/Window/Title" xmlns=""><value>Shopping Basket</value></data>
+    <data name="ShoppingCart/AreaHold/Comment" xmlns=""><value>Items to buy later: click 'Move to Cart' to move an item back to the shopping basket for purchase</value></data>
+    <data name="ShoppingCart/AreaHold/Title" xmlns=""><value>Hold for Later</value></data>
+    <data name="ShoppingCart/AreaMain/Comment" xmlns=""><value>Items to buy now: click 'Proceed to Checkout' to order the contents of your shopping basket</value></data>
+    <data name="ShoppingCart/AreaMain/Title" xmlns=""><value>Shopping Basket</value></data>
+    <data name="ShoppingCart/Button/Checkout" xmlns=""><value>Proceed to Checkout</value></data>
+    <data name="ShoppingCart/Button/Continue" xmlns=""><value>Continue Shopping</value></data>
+    <data name="ShoppingCart/ColumnHeader/Date" xmlns=""><value>Date Modified</value></data>
+    <data name="ShoppingCart/ColumnHeader/Description" xmlns=""><value>Description</value></data>
+    <data name="ShoppingCart/ColumnHeader/ID" xmlns=""><value>ID</value></data>
+    <data name="ShoppingCart/ColumnHeader/Options" xmlns=""><value>Options</value></data>
+    <data name="ShoppingCart/ColumnHeader/Price" xmlns=""><value>Price</value></data>
+    <data name="ShoppingCart/ColumnHeader/Product" xmlns=""><value>Product</value></data>
+    <data name="ShoppingCart/ColumnHeader/Thumbnail" xmlns=""><value>Thumbnail</value></data>
+    <data name="ShoppingCart/Message/CartEmpty" xmlns=""><value>The shopping basket is empty</value></data>
+    <data name="ShoppingCart/Message/UnableToDisplayPrices" xmlns=""><value>Unable to display prices</value></data>
+    <data name="ShoppingCart/Message/ConfirmDelete" xmlns=""><value>Delete this item permanently?</value></data>
+    <data name="ShoppingCart/Option/Delete" xmlns=""><value>Delete</value></data>
+    <data name="ShoppingCart/Option/Duplicate" xmlns=""><value>Duplicate</value></data>
+    <data name="ShoppingCart/Option/Edit" xmlns=""><value>Edit</value></data>
+    <data name="ShoppingCart/Option/Hold" xmlns=""><value>Hold</value></data>
+    <data name="ShoppingCart/Option/MoveToCart" xmlns=""><value>Move to Cart</value></data>
+    <data name="ShoppingCart/Option/Proof" xmlns=""><value>PDF Preview</value></data>
+    <data name="ShoppingCart/Option/ProofHtml" xmlns=""><value>HTML Preview</value></data>
+    <data name="ShoppingCart/Pricing/Subtotal" xmlns=""><value>Subtotal: </value></data>
+    <data name="ShoppingCart/Pricing/Total" xmlns=""><value>Total: </value></data>
+    <data name="ShoppingCart/Warning/cantAssignExternID" xmlns=""><value>Order could not be processed because of an internal error.</value></data>
+    <data name="ShoppingCart/Warning/cantDeleteDocNotOurs" xmlns=""><value>The selected document cannot be deleted because it is in use by another browser.</value></data>
+    <data name="ShoppingCart/Warning/errorDocInUse" xmlns=""><value>Sorry, that document is being modified. Please select another document or try again later.</value></data>
+    <data name="ShoppingCart/Warning/invalidDocSavedInHold" xmlns=""><value>Your document '[1]' has been placed in the Hold area because of errors. When you fix the errors it can be ordered.</value></data>
+    <data name="ShoppingCart/Warning/orderInvalidatedByExtension" xmlns=""><value>Your order could not be placed due to an internal error. Please contact a system administrator.</value></data>
+    <data name="ShoppingCart/Warning/orderInvalidPriceConflict" xmlns=""><value>Your order could not be placed due to a pricing conflict.</value></data>
+    <data name="ShoppingCart/Warning/sxiErrorOnShoppingCart" xmlns=""><value>An internal error has occurred. Please contact a system administrator.</value></data>
+    <data name="ShoppingCart/Warning/invalidatedDocSavedInHold" xmlns=""><value>Some documents have become no longer valid and have been saved in Hold.</value></data>
+    <data name="ShoppingCart/Warning/reorderedDocCouldNotReuseDataSource" xmlns=""><value>Document cannot re-use data list and has been saved in Hold. Edit document to specify a data list.</value></data>
+    <data name="ShoppingCart/Warning/savedToShoppingCart" xmlns=""><value>'[1]' has been added to the  shopping basket.</value></data>
+    <data name="ShoppingCart/Warning/orderPriceOverflow" xmlns=""><value>An error occurred computing order price.</value></data>
+    <data name="Orders/Window/Title" xmlns=""><value>Orders</value></data>
+    <data name="Orders/Area/Comment" xmlns=""><value>All of your recent and past order submissions can be found here. If you have ordered a PDF and your Order Status is 'In progress' it's now available to download. Click on the title within the Items column to download your PDF.</value></data>
+    <data name="Orders/Area/Continued" xmlns=""><value>Orders (continued)</value></data>
+    <data name="Orders/Area/Title" xmlns=""><value>Orders</value></data>
+    <data name="Orders/Button/Next" xmlns=""><value>Next &gt;</value></data>
+    <data name="Orders/Button/Previous" xmlns=""><value>&lt; Previous</value></data>
+    <data name="Orders/ColumnHeader/Order" xmlns=""><value>Order</value></data>
+    <data name="Orders/ColumnHeader/Placed" xmlns=""><value>Created</value></data>
+    <data name="Orders/ColumnHeader/Items" xmlns=""><value>Items</value></data>
+    <data name="Orders/ColumnHeader/Options" xmlns=""><value>Options</value></data>
+    <data name="Orders/ColumnHeader/TotalCost" xmlns=""><value>Price</value></data>
+    <data name="Orders/ColumnHeader/Status" xmlns=""><value>Status</value></data>
+    <data name="Orders/ComboLabel/AllOrders" xmlns=""><value>All Orders</value></data>
+    <data name="Orders/ComboLabel/Pending" xmlns=""><value>Orders Pending Review</value></data>
+    <data name="Orders/ComboLabel/Placed" xmlns=""><value>Placed Orders</value></data>
+    <data name="Orders/ComboLabel/InProcess" xmlns=""><value>Orders In Process</value></data>
+    <data name="Orders/ComboLabel/Completed" xmlns=""><value>Completed Orders</value></data>
+    <data name="Orders/ComboLabel/Unapproved" xmlns=""><value>Approval Declined</value></data>
+    <data name="Orders/Message/NoOrders" xmlns=""><value>No orders have been placed.</value></data>
+    <data name="Orders/Message/NoOrdersPending" xmlns=""><value>No orders are pending.</value></data>
+    <data name="Orders/Message/NoOrdersPlaced" xmlns=""><value>No orders are Placed.</value></data>
+    <data name="Orders/Message/NoOrdersInProcess" xmlns=""><value>No orders are In Process.</value></data>
+    <data name="Orders/Message/NoOrdersCompleted" xmlns=""><value>No orders are Completed.</value></data>
+    <data name="Orders/Message/NoOrdersUnapproved" xmlns=""><value>No orders are Declined.</value></data>
+    <data name="Orders/Option/Details" xmlns=""><value>Details</value></data>
+    <data name="Orders/Option/Reorder" xmlns=""><value>Reorder</value></data>
+    <data name="Orders/Option/Download" xmlns=""><value>Download</value></data>
+    <data name="Orders/Option/ViewDetails" xmlns=""><value>Details</value></data>
+    <data name="Orders/Option/View" xmlns=""><value>View:</value></data>
+    <data name="Orders/OrderGroupHeader/Order" xmlns=""><value>Order</value></data>
+    <data name="Orders/OrderGroupHeader/Placed" xmlns=""><value>created</value></data>
+    <!-- "by" as in the sentence "This order was approved by John Doe." -->
+    <data name="Orders/Status/By" xmlns=""><value>by</value></data>
+    <data name="Orders/Status/NeedsNoApproval" xmlns=""><value>Ordered, did not need approval</value></data>
+    <data name="Orders/Status/InProcess" xmlns=""><value>In Process</value></data>
+    <data name="Orders/Status/InProcessDownloadable" xmlns=""><value>In Process: Available for Download</value></data>
+    <data name="Orders/Status/Placed" xmlns=""><value>Placed</value></data>
+    <data name="Orders/Status/Approved" xmlns=""><value>Approved</value></data>
+    <data name="Orders/Status/Declined" xmlns=""><value>Approval Declined</value></data>
+    <data name="Orders/Status/PendingApproval" xmlns=""><value>Pending Review</value></data>
+    <data name="Orders/Status/Rejected" xmlns=""><value>Approval Declined</value></data>
+    <data name="Orders/Status/Completed" xmlns=""><value>Completed</value></data>
+    <data name="Orders/Warning/newOrder" xmlns=""><value>Your order has been placed. Check the list below to follow its progress.</value></data>
+    <data name="Orders/Warning/newOrderWithDownload" xmlns=""><value>Your order has been placed and output is being generated. Refreshing this page will show an active link in the "Items" column for any items with completed output.</value></data>
+    <data name="Orders/Warning/newOrderNeedingApproval" xmlns=""><value>Your order has been submitted for approval.</value></data>
+    <data name="Orders/Warning/cantReorder" xmlns=""><value>This document cannot be reordered because its product is no longer available.</value></data>
+    <data name="Orders/Warning/cantReorderBecauseRetired" xmlns=""><value>This item cannot be reordered.</value></data>
+    <data name="OrderSummary/Window/Title" xmlns=""><value>Order Summary</value></data>
+    <data name="OrderSummary/Area/Comment" xmlns=""><value>Order summary</value></data>
+    <data name="OrderSummary/ApprovalInfo/Title" xmlns=""><value>Approval Information:</value></data>
+    <data name="OrderSummary/ApprovalInfo/Status" xmlns=""><value>Status:</value></data>
+    <data name="OrderSummary/ApprovalInfo/Reviewer" xmlns=""><value>Reviewer:</value></data>
+    <data name="OrderSummary/ApprovalInfo/Comment" xmlns=""><value>Order Review Comments:</value></data>
+    <data name="OrderSummary/ColumnHeader/Thumbnail" xmlns=""><value>Thumbnail</value></data>
+    <data name="OrderSummary/ColumnHeader/ID_Product" xmlns=""><value>ID and Product</value></data>
+    <data name="OrderSummary/ColumnHeader/Description" xmlns=""><value>Description</value></data>
+    <data name="OrderSummary/ColumnHeader/Status" xmlns=""><value>Status</value></data>
+    <data name="OrderSummary/ColumnHeader/Comments" xmlns=""><value>Comments</value></data>
+    <data name="OrderSummary/ColumnHeader/Options" xmlns=""><value>Options</value></data>
+    <data name="OrderSummary/ColumnHeader/Price" xmlns=""><value>Price</value></data>
+    <data name="OrderSummary/Header/OrderInformation" xmlns=""><value>(STRING NOT USED)</value></data>
+    <data name="OrderSummary/Header/ShippingInformation" xmlns=""><value>Shipping Information</value></data>
+    <data name="OrderSummary/Header/PaymentInformation" xmlns=""><value>Information</value></data>
+    <data name="OrderSummary/Label/OrderID" xmlns=""><value>Order ID</value></data>
+    <data name="OrderSummary/Label/Date" xmlns=""><value>Created</value></data>
+    <data name="OrderSummary/Label/SystemMessage" xmlns=""><value>System Message: </value></data>
+    <data name="OrderSummary/Label/ReviewersComment" xmlns=""><value>Reviewer's Comment: </value></data>
+    <data name="OrderSummary/Status/Unreviewed" xmlns=""><value>Unreviewed</value></data>
+    <data name="OrderSummary/Status/Ordered" xmlns=""><value>Ordered</value></data>
+    <data name="OrderSummary/Status/InProcess" xmlns=""><value>In Process</value></data>
+    <data name="OrderSummary/Status/Shipped" xmlns=""><value>Shipped</value></data>
+    <data name="OrderSummary/Status/Rejected" xmlns=""><value>Rejected</value></data>
+    <data name="OrderItemDetails/Window/Title" xmlns=""><value>Item Details</value></data>
+    <data name="OrderItemDetails/Area/Title" xmlns=""><value>Item Details</value></data>
+    <data name="OrderItemDetails/Area/Comment" xmlns=""><value>Item details for this ordered document</value></data>
+    <data name="OrderItemDetails/Label/Header" xmlns=""><value>Item Information</value></data>
+    <data name="OrderItemDetails/Label/ID" xmlns=""><value>Document ID</value></data>
+    <data name="OrderItemDetails/Label/TotalPrice" xmlns=""><value>Online Item Price</value></data>
+    <data name="OrderItemDetails/Label/ProductionCosts" xmlns=""><value>Online Production Costs</value></data>
+    <data name="OrderItemDetails/Label/PrintingOptions" xmlns=""><value>Printing Options</value></data>
+    <data name="OrderItemDetails/Label/DataListDetails" xmlns=""><value>Data List</value></data>
+    <data name="OrderItemDetails/Label/DataList" xmlns=""><value>Data List</value></data>
+    <data name="OrderItemDetails/Label/NumberOfRecords" xmlns=""><value>Number of Records</value></data>
+    <data name="OrderItemDetails/Label/Cost" xmlns=""><value>Data Costs</value></data>
+    <data name="OrderItemDetails/Label/PriceTip" xmlns=""><value>Price will be invoiced</value></data>
+    <data name="Library/Window/Title" xmlns=""><value>My Library</value></data>
+    <data name="Library/AreaHidden/Comment" xmlns=""><value>Images and databases listed below were previously hidden from your library. Click Restore to add them back to your library.</value></data>
+    <data name="Library/AreaHidden/Title" xmlns=""><value>Hidden Library Items</value></data>
+    <data name="Library/AreaMain/Comment" xmlns=""><value>Content you have uploaded.</value></data>
+    <data name="Library/AreaMain/Title" xmlns=""><value>My Library</value></data>
+    <data name="Library/Button/Done" xmlns=""><value>Done</value></data>
+    <data name="Library/Button/UploadDatabase" xmlns=""><value>Upload Database</value></data>
+    <data name="Library/Button/UploadImage" xmlns=""><value>Upload Image</value></data>
+    <data name="Library/Button/UploadPdfDocument" xmlns=""><value>Upload PDF Document</value></data>
+    <data name="Library/Button/ViewHiddenItems" xmlns=""><value>View Hidden Items</value></data>
+    <data name="Library/Message/HiddenEmpty" xmlns=""><value>There are no hidden library items</value></data>
+    <data name="Library/Message/LibraryEmpty" xmlns=""><value>The library is empty</value></data>
+    <data name="Library/Option/Download" xmlns=""><value>Download</value></data>
+    <data name="Library/Option/View" xmlns=""><value>View</value></data>
+    <data name="Library/Option/Hide" xmlns=""><value>Hide</value></data>
+    <data name="Library/Option/Rename" xmlns=""><value>Rename</value></data>
+    <data name="Library/Option/Restore" xmlns=""><value>Restore</value></data>
+    <data name="Assets/Annotations/Purchased" xmlns=""><value>Acquired</value></data>
+    <data name="Assets/Annotations/ZeroUsesRemain" xmlns=""><value>All used up</value></data>
+    <data name="Assets/Annotations/SingleUseRemains" xmlns=""><value>Single Use</value></data>
+    <data name="Assets/Annotations/MultipleUsesRemain" xmlns=""><value>{0} uses remain</value></data>
+    <data name="Assets/Annotations/UseByDeadline" xmlns=""><value>Use until {0}</value></data>
+    <data name="RenameAsset/Window/Title" xmlns=""><value>My Library: Rename</value></data>
+    <data name="RenameAsset/Area/Title" xmlns=""><value>Rename Library Element</value></data>
+    <data name="RenameAsset/Area/Comment" xmlns=""><value>Edit the item name. Click Accept to confirm your update or Cancel to ignore it.</value></data>
+    <data name="RenameAsset/Label/Name" xmlns=""><value>Name:</value></data>
+    <data name="Profile/Window/Title" xmlns=""><value>My Profile</value></data>
+    <data name="Profile/AreaEdit/Comment" xmlns=""><value>Edit your personal information. Click Accept to confirm your updates or Cancel to ignore them.</value></data>
+    <data name="Profile/AreaEdit/Title" xmlns=""><value>Edit My Profile</value></data>
+    <data name="Profile/AreaReadOnly/Comment" xmlns=""><value>Review your personal information. Click 'Edit Profile' to make changes.</value></data>
+    <data name="Profile/AreaReadOnly/CommentReadOnly" xmlns=""><value>Review your personal information.</value></data>
+    <data name="Profile/AreaReadOnly/Title" xmlns=""><value>My Profile</value></data>
+    <data name="Profile/Button/ChangePassword" xmlns=""><value>Change Password</value></data>
+    <data name="Profile/Button/EditProfile" xmlns=""><value>Edit Profile</value></data>
+    <data name="Profile/FieldLabel/FirstName" xmlns=""><value>First Name</value></data>
+    <data name="Profile/FieldLabel/LastName" xmlns=""><value>Last Name</value></data>
+    <data name="Profile/FieldLabel/EmailAddress" xmlns=""><value>E-mail Address</value></data>
+    <data name="ChangePassword/Window/Title" xmlns=""><value>Change Password</value></data>
+    <data name="ChangePassword/Area/Title" xmlns=""><value>Change My Password</value></data>
+    <data name="ChangePassword/Area/Comment" xmlns=""><value>Change your password. Click Accept to confirm your updates or Cancel to ignore them.</value></data>
+    <data name="ChangePassword/Label/CurrentPassword" xmlns=""><value>Current password</value></data>
+    <data name="ChangePassword/Label/NewPassword" xmlns=""><value>New password</value></data>
+    <data name="ChangePassword/Label/ConfirmPassword" xmlns=""><value>Confirm new password</value></data>
+    <data name="ChangePassword/ErrorMessage/NewPasswordMistyped" xmlns=""><value>New password mistyped</value></data>
+    <data name="ChangePassword/ErrorMessage/NewPasswordInvalid" xmlns=""><value>New password is invalid</value></data>
+    <data name="ChangePassword/ErrorMessage/DatabaseError" xmlns=""><value>Database error has occurred</value></data>
+    <data name="ChangePassword/ErrorMessage/InvalidPassword" xmlns=""><value>Incorrect existing password</value></data>
+    <data name="EditingSteps/StepControls/Title" xmlns=""><value>Editing Steps</value></data>
+    <data name="EditingSteps/Area/Title" xmlns=""><value>Create a Document</value></data>
+    <data name="EditingSteps/Area/StepNumberIndicator" xmlns=""><value>Step {0} of {1}</value></data>
+    <data name="EditingSteps/StepLabel/FormFilling" xmlns=""><value>Form Filling</value></data>
+    <data name="EditingSteps/StepLabel/Description" xmlns=""><value>Description</value></data>
+    <data name="EditingSteps/StepLabel/Upload" xmlns=""><value>Upload</value></data>
+    <data name="EditingSteps/StepLabel/FreeEdit" xmlns=""><value>Free Edit</value></data>
+    <data name="EditingSteps/StepLabel/DataMerge" xmlns=""><value>Data List</value></data>
+    <data name="EditingSteps/StepLabel/MailingList" xmlns=""><value>Mailing List</value></data>
+    <data name="EditingSteps/StepLabel/Printing" xmlns=""><value>Printing</value></data>
+    <data name="EditingSteps/StepLabel/Finish" xmlns=""><value>Finish</value></data>
+    <data name="StepArea/StepLabel/Separator" xmlns=""><value>:</value></data>
+    <data name="EditFormFilling/Window/Title" xmlns=""><value>Form Filling</value></data>
+    <data name="EditFormFilling/Area/Comment" xmlns=""><value>Fill out the form to change the document. Click on 'Update' or 'PDF Preview' to view changes.</value></data>
+    <data name="EditFormFilling/Area/CommentHtml" xmlns=""><value>Fill out the form to change the document. Click on 'Update' or 'HTML Preview' to view changes.</value></data>
+    <data name="EditFormFilling/Area/CommentNoProof" xmlns=""><value>Fill out the form to change the document. Click on 'Update' to view changes.</value></data>
+    <data name="EditFormFilling/Area/CommentDescription" xmlns=""><value>Read about the product and view a large preview.</value></data>
+    <data name="EditFormFilling/Area/CommentUpload" xmlns=""><value>Upload the PDF format document you wish to print.</value></data>
+    <data name="EditFormFilling/Button/Update" xmlns=""><value>Update</value></data>
+    <data name="EditFormFilling/Button/Select" xmlns=""><value>Select</value></data>
+    <data name="EditFormFilling/Button/Upload" xmlns=""><value>Upload</value></data>
+    <data name="EditFormFilling/Button/Reset" xmlns=""><value>Reset</value></data>
+    <data name="EditFormFilling/Button/Clear" xmlns=""><value>Clear</value></data>
+    <data name="EditFormFilling/Fragment/PleaseWait" xmlns=""><value>Preview Loading...</value></data>
+    <data name="EditFormFilling/Fragment/Page" xmlns=""><value>Page</value></data>
+    <data name="EditFormFilling/Fragment/Pages" xmlns=""><value>Pages</value></data>
+    <data name="EditFormFilling/Fragment/Of" xmlns=""><value>of</value></data>
+    <data name="EditFormFilling/Message/UnableToDisplayDocument" xmlns=""><value>Unable to display document</value></data>
+    <data name="EditFree/Window/Title" xmlns=""><value>Free Edit</value></data>
+    <data name="EditFree/Area/Comment" xmlns=""><value>Use this editor to make adjustments directly</value></data>
+    <data name="EditFree/Alert/UploadingImage" xmlns=""><value>Uploading my Image</value></data>
+    <data name="EditFree/Alert/GeneratingOutput" xmlns=""><value>Your output is being generated...</value></data>
+    <data name="EditFree/Alert/PleaseEnableSignedApplets" xmlns=""><value>If you wish to Copy and Paste to and from the System clipboard: please open a new Tab, type about:config in the address bar and hit Enter. Then set the user preference 'signed.applets.codebase_principal_support' to 'true'.</value></data>
+    <data name="EditFree/Button/PDFPreview" xmlns=""><value>PDF Preview...</value></data>
+    <data name="EditFree/Button/Bold" xmlns=""><value>Bold</value></data>
+    <data name="EditFree/Button/Italic" xmlns=""><value>Italic</value></data>
+    <data name="EditFree/Button/Underline" xmlns=""><value>Underline</value></data>
+    <data name="EditFree/Button/LeftAlign" xmlns=""><value>Left Align</value></data>
+    <data name="EditFree/Button/CenterAlign" xmlns=""><value>Center Align</value></data>
+    <data name="EditFree/Button/RightAlign" xmlns=""><value>Right Align</value></data>
+    <data name="EditFree/Button/Justify" xmlns=""><value>Justify</value></data>
+    <data name="EditFree/Button/CopyrightSymbol" xmlns=""><value>Insert Copyright Symbol</value></data>
+    <data name="EditFree/Button/RegisteredTrademarkSymbol" xmlns=""><value>Insert Registered Trademark Symbol</value></data>
+    <data name="EditFree/Button/TrademarkSymbol" xmlns=""><value>Insert Trademark Symbol</value></data>
+    <data name="EditFree/Button/BulletCharacter" xmlns=""><value>Insert Bullet Character</value></data>
+    <data name="EditFree/Button/EnDashCharacter" xmlns=""><value>Insert En Dash</value></data>
+    <data name="EditFree/Button/EmDashCharacter" xmlns=""><value>Insert Em Dash</value></data>
+    <data name="EditFree/Button/Select" xmlns=""><value>Select</value></data>
+    <data name="EditFree/Button/Zoom" xmlns=""><value>Zoom</value></data>
+    <data name="EditFree/Button/TextFrame" xmlns=""><value>New Text Frame</value></data>
+    <data name="EditFree/Button/ImageFrame" xmlns=""><value>New Image Frame</value></data>
+    <data name="EditFree/Button/Rectangle" xmlns=""><value>New Rectangle</value></data>
+    <data name="EditFree/Button/Circle" xmlns=""><value>New Circle</value></data>
+    <data name="EditFree/Button/FirstPage" xmlns=""><value>First Page</value></data>
+    <data name="EditFree/Button/PreviousPage" xmlns=""><value>Previous Page</value></data>
+    <data name="EditFree/Button/NextPage" xmlns=""><value>Next Page</value></data>
+    <data name="EditFree/Button/LastPage" xmlns=""><value>Last Page</value></data>
+    <data name="EditFree/Button/FillColor" xmlns=""><value>Fill Color</value></data>
+    <data name="EditFree/Button/BorderColor" xmlns=""><value>Border Color</value></data>
+    <data name="EditFree/Button/TextColor" xmlns=""><value>Text Color</value></data>
+    <data name="EditFree/Button/Find" xmlns=""><value>Find</value></data>
+    <data name="EditFree/Button/Replace" xmlns=""><value>Replace</value></data>
+    <data name="EditFree/Button/Close" xmlns=""><value>Close</value></data>
+
+    <data name="EditFree/MenuArrange/Title" xmlns=""><value>Arrange</value></data>
+    <data name="EditFree/MenuEdit/Title" xmlns=""><value>Edit</value></data>
+    <data name="EditFree/MenuEdit/Undo" xmlns=""><value>Undo</value></data>
+    <data name="EditFree/MenuEdit/Redo" xmlns=""><value>Redo</value></data>
+    <data name="EditFree/MenuEdit/Cut" xmlns=""><value>Cut</value></data>
+    <data name="EditFree/MenuEdit/Copy" xmlns=""><value>Copy</value></data>
+    <data name="EditFree/MenuEdit/Paste" xmlns=""><value>Paste</value></data>
+    <data name="EditFree/MenuEdit/Delete" xmlns=""><value>Delete</value></data>
+    <data name="EditFree/MenuEdit/BringToFront" xmlns=""><value>Bring To Front</value></data>
+    <data name="EditFree/MenuEdit/SendToBack" xmlns=""><value>Send To Back</value></data>
+    <data name="EditFree/MenuEdit/BringForward" xmlns=""><value>Bring Forward</value></data>
+    <data name="EditFree/MenuEdit/SendBackward" xmlns=""><value>Send Backward</value></data>
+    <data name="EditFree/MenuEdit/Spelling" xmlns=""><value>Spelling</value></data>
+    <data name="EditFree/MenuEdit/CheckSpelling" xmlns=""><value>Check Spelling...</value></data>
+    <data name="EditFree/MenuEdit/FindReplace" xmlns=""><value>Find/Replace</value></data>
+    <data name="EditFree/MenuEdit/FindReplaceEllipsis" xmlns=""><value>Find/Replace...</value></data>
+    <data name="EditFree/MenuView/Title" xmlns=""><value>View</value></data>
+    <data name="EditFree/MenuView/ZoomIn" xmlns=""><value>Zoom In</value></data>
+    <data name="EditFree/MenuView/ZoomOut" xmlns=""><value>Zoom Out</value></data>
+    <data name="EditFree/MenuView/FitPage" xmlns=""><value>Fit Page</value></data>
+    <data name="EditFree/MenuView/ShowHidden" xmlns=""><value>Show Hidden Chars</value></data>
+    <data name="EditFree/MenuView/ShowOutlines" xmlns=""><value>Show Outlines</value></data>
+    <data name="EditFree/MenuView/ShowVariables" xmlns=""><value>Show Variables</value></data>
+    <data name="EditFree/MenuTools/Title" xmlns=""><value>Tools</value></data>
+    <data name="EditFree/Message/PleaseWait" xmlns=""><value>Please wait...</value></data>
+    <data name="EditFree/Message/SelectImage" xmlns=""><value>Select an image.</value></data>
+    <data name="EditFree/PanelText/Title" xmlns=""><value>Text</value></data>
+    <data name="EditFree/PanelTextLabel/ParagraphStyle" xmlns=""><value>Paragraph Style</value></data>
+    <data name="EditFree/PanelTextLabel/FontName" xmlns=""><value>Font Name</value></data>
+    <data name="EditFree/PanelTextLabel/FontSize" xmlns=""><value>Font Size</value></data>
+    <data name="EditFree/PanelTextLabel/Leading" xmlns=""><value>Leading</value></data>
+    <data name="EditFree/PanelTextLeadingChoice/Normal" xmlns=""><value>Normal</value></data>
+    <data name="EditFree/PanelTextLeadingChoice/Loose" xmlns=""><value>Loose</value></data>
+    <data name="EditFree/PanelTextLeadingChoice/VeryLoose" xmlns=""><value>Very Loose</value></data>
+    <data name="EditFree/PanelTextLabel/FontStyles" xmlns=""><value>Font Styles</value></data>
+    <data name="EditFree/PanelTextLabel/Alignment" xmlns=""><value>Alignment</value></data>
+    <data name="EditFree/PanelTextLabel/Language" xmlns=""><value>Language</value></data>
+    <data name="EditFree/PanelTextLanguageChoice/USEnglish" xmlns=""><value>U.S. English</value></data>
+    <data name="EditFree/PanelTextLanguageChoice/UKEnglish" xmlns=""><value>U.K. English</value></data>
+    <data name="EditFree/PanelTextLanguageChoice/French" xmlns=""><value>French</value></data>
+    <data name="EditFree/PanelTextLanguageChoice/German" xmlns=""><value>German</value></data>
+    <data name="EditFree/PanelTextLanguageChoice/Spanish" xmlns=""><value>Spanish</value></data>
+    <data name="EditFree/PanelTextLabel/InsertCharacters" xmlns=""><value>Insert Characters</value></data>
+    <data name="EditFree/PanelColors/Title" xmlns=""><value>Colors</value></data>
+    <data name="EditFree/PanelColor/Title" xmlns=""><value>Color</value></data>
+    <data name="EditFree/PanelColorSubtitle/FillColor" xmlns=""><value>Set Fill Color</value></data>
+    <data name="EditFree/PanelColorSubtitle/TextColor" xmlns=""><value>Set Text Color</value></data>
+    <data name="EditFree/PanelColorSubtitle/BorderColor" xmlns=""><value>Set Border Color</value></data>
+    <data name="EditFree/PanelColorLabel/FillTint" xmlns=""><value>Fill Tint</value></data>
+    <data name="EditFree/PanelColorLabel/TextTint" xmlns=""><value>Text Tint</value></data>
+    <data name="EditFree/PanelColorLabel/BorderTint" xmlns=""><value>Border Tint</value></data>
+    <data name="EditFree/PanelColorLabel/BorderThickness" xmlns=""><value>Thickness</value></data>
+    <data name="EditFree/PanelColorMessage/NothingSelected" xmlns=""><value>Select text or an object</value></data>
+    <data name="EditFree/PanelImage/Title" xmlns=""><value>Images</value></data>
+    <data name="EditFree/PanelImageButton/UploadImage" xmlns=""><value>Upload Image...</value></data>
+    <data name="EditFree/PanelImageButton/EditImage" xmlns=""><value>Edit Image...</value></data>
+    <data name="EditFree/PanelImageButton/CancelImageEdit" xmlns=""><value>Cancel Image Edit</value></data>
+    <data name="EditFree/PanelImageButton/CancelImageUpload" xmlns=""><value>Cancel Image Upload</value></data>
+    <data name="EditFree/PanelImageMessage/SelectAnImage" xmlns=""><value>Select an image</value></data>
+    <data name="EditFree/PanelImageMessage/SelectANonVariableImage1" xmlns=""><value>This image will be filled by </value></data>
+    <data name="EditFree/PanelImageMessage/SelectANonVariableImage2" xmlns=""><value>a variable value. </value></data>
+    <data name="EditFree/PanelImageMessage/SelectANonVariableImage3" xmlns=""><value>Please select another.</value></data>
+    <data name="EditFree/PanelImageMessage/SelectANonVariableImage4" xmlns=""><value></value></data>
+    <data name="EditFree/PanelImageSubtitle/ProductLibrary" xmlns=""><value>Product Library</value></data>
+    <data name="EditFree/PanelImageSubtitle/MyLibrary" xmlns=""><value>My Library</value></data>
+    <data name="EditFree/PanelImageSubtitle/GlobalLibrary" xmlns=""><value>Global Library</value></data>
+    <data name="EditFree/PanelGeometry/Title" xmlns=""><value>Size and Position</value></data>
+    <data name="EditFree/PanelGeometryLabel/ShapeXPosition" xmlns=""><value>X:</value></data>
+    <data name="EditFree/PanelGeometryLabel/ShapeYPosition" xmlns=""><value>Y:</value></data>
+    <data name="EditFree/PanelGeometryLabel/ShapeWidth" xmlns=""><value>W:</value></data>
+    <data name="EditFree/PanelGeometryLabel/ShapeHeight" xmlns=""><value>H:</value></data>
+    <data name="EditFree/PanelGeometryLabel/Left" xmlns=""><value>Left</value></data>
+    <data name="EditFree/PanelGeometryLabel/Top" xmlns=""><value>Top</value></data>
+    <data name="EditFree/PanelGeometryLabel/Width" xmlns=""><value>Width</value></data>
+    <data name="EditFree/PanelGeometryLabel/Height" xmlns=""><value>Height</value></data>
+    <data name="EditFree/PanelGeometryLabel/Angle" xmlns=""><value>Angle</value></data>
+    <data name="EditFree/PanelNewElement/Title" xmlns=""><value>Add New Element</value></data>
+    <data name="EditFree/PanelSpelling/Title" xmlns=""><value>Check Spelling</value></data>
+    <data name="EditFree/PanelSpellingLabel/MisspelledWord" xmlns=""><value>Misspelled Word</value></data>
+    <data name="EditFree/PanelSpellingLabel/Suggestions" xmlns=""><value>Suggestions</value></data>
+    <data name="EditFree/PanelSpellingLabel/ChangeTo" xmlns=""><value>Change To</value></data>
+    <data name="EditFree/PanelSpellingMessage/CheckComplete" xmlns=""><value>Check complete.</value></data>
+    <data name="EditFree/PanelSpellingButton/Start" xmlns=""><value>Start</value></data>
+    <data name="EditFree/PanelSpellingButton/Close" xmlns=""><value>Close</value></data>
+    <data name="EditFree/PanelSpellingButton/Resume" xmlns=""><value>Resume Spelling Check</value></data>
+    <data name="EditFree/PanelSpellingButton/Change" xmlns=""><value>Change</value></data>
+    <data name="EditFree/PanelSpellingButton/Ignore" xmlns=""><value>Ignore</value></data>
+    <data name="EditFree/PanelFind/Title" xmlns=""><value>Find/Replace</value></data>
+    <data name="EditFree/PanelFindLabel/FindWhat" xmlns=""><value>Find What</value></data>
+    <data name="EditFree/PanelFindLabel/ReplaceWith" xmlns=""><value>Replace With</value></data>
+    <data name="EditFree/PanelImport/Title" xmlns=""><value>Import Text</value></data>
+    <data name="EditFree/PanelImportMessage/Line1" xmlns=""><value>Click in the text field below.</value></data>
+    <data name="EditFree/PanelImportMessage/Line2" xmlns=""><value>then use Ctrl-V or Cmd-V to</value></data>
+    <data name="EditFree/PanelImportMessage/Line3" xmlns=""><value>paste text copied from an</value></data>
+    <data name="EditFree/PanelImportMessage/Line4" xmlns=""><value>external source here:</value></data>
+    <data name="EditFree/PanelImportTip/Line1" xmlns=""><value>TIP:</value></data>
+    <data name="EditFree/PanelImportTip/Line2" xmlns=""><value>You can use Ctrl-V or Cmd-V</value></data>
+    <data name="EditFree/PanelImportTip/Line3" xmlns=""><value>(but not the Paste menu item)</value></data>
+    <data name="EditFree/PanelImportTip/Line4" xmlns=""><value>to insert text directly into a text</value></data>
+    <data name="EditFree/PanelImportTip/Line5" xmlns=""><value>selection in the document</value></data>
+    <data name="EditFree/Warning/ErrorCreatingTemplate" xmlns=""><value>An error occurred while preparing your document.</value></data>
+    <data name="EditFree/Warning/JavaDisabled" xmlns=""><value>Sun Java is required for this step, version 1.4.x or later.&lt;br>(Java is not enabled for this browser).&lt;br>&lt;a href="http://java.com/download">Click here to download now&lt;/a></value></data>
+    <data name="EditFree/Warning/BadJVM" xmlns=""><value>Sun Java is required for this step, version 1.4.x or later.&lt;br>(Installed version is [1]).&lt;br>&lt;a href="http://java.com/download">Click here to download now&lt;/a></value></data>
+    <data name="EditImageEditor/Window/Title" xmlns=""><value>Edit Image: Crop and Scale Your Image</value></data>
+    <data name="EditImageEditor/Area/Title" xmlns=""><value>Edit Image</value></data>
+    <data name="EditImageEditor/Error/CantLoad" xmlns=""><value>Unable to load image!</value></data>
+    <data name="EditDataMerge/Window/Title" xmlns=""><value>Data List</value></data>
+    <data name="EditDataMerge/Area/Comment" xmlns=""><value>Provide a data list to drive individualized output</value></data>
+    <data name="EditDataMerge/Area/CommentMailingList" xmlns=""><value>Provide the Mailing List data for this product</value></data>
+    <data name="EditDataMerge/Instructions/PleaseSpecify" xmlns=""><value>Please specify a data list.</value></data>
+    <data name="EditDataMerge/Instructions/NoData" xmlns=""><value>The specified data list contains no records.</value></data>
+    <data name="EditDataMerge/Button/Download" xmlns=""><value>Download a Sample Data List...</value></data>
+    <data name="EditDataMerge/Instructions/Select" xmlns=""><value>Select a database to merge:</value></data>
+    <data name="EditDataMerge/Button/Upload" xmlns=""><value>Upload a Data List</value></data>
+    <data name="EditDataMerge/Button/Select" xmlns=""><value>Select Data List from Library</value></data>
+    <data name="EditDataMerge/Button/Acquire" xmlns=""><value>Acquire a Data List</value></data>
+    <data name="EditDataMerge/Button/Clear" xmlns=""><value>Clear</value></data>
+    <data name="EditDataMerge/Message/ListNameLabel" xmlns=""><value>Data List to Merge:</value></data>
+    <data name="EditDataMerge/Message/ListNameLabelIfMailingList" xmlns=""><value>Data List:</value></data>
+    <data name="EditDataMerge/Message/NoList" xmlns=""><value>(None Specified)</value></data>
+    <data name="EditDataMerge/Message/Record" xmlns=""><value> Record</value></data>
+    <data name="EditDataMerge/Message/Records" xmlns=""><value> Records</value></data>
+    <data name="EditDataMerge/ErrorMessage/NoDatabase" xmlns=""><value>You must specify a database to merge</value></data>
+    <data name="EditDataMerge/ErrorMessage/FileNotCSV" xmlns=""><value>Uploaded file is not a valid CSV file</value></data>
+    <data name="EditDataMerge/ErrorMessage/ColumnNameTooLong" xmlns=""><value>Invalid uploaded file--column name longer than 64 characters</value></data>
+    <data name="EditDataMerge/ErrorMessage/SchemaMismatch" xmlns=""><value>Uploaded file does not match schema</value></data>
+    <data name="EditPrinting/Window/Title" xmlns=""><value>Printing Options</value></data>
+    <data name="EditPrinting/Area/Comment" xmlns=""><value>Set printing options</value></data>
+    <data name="EditPrinting/PriceEstimate/CannotCompute" xmlns=""><value>Could not compute price.</value></data>
+    <data name="EditPrinting/PriceEstimate/InvalidOptions" xmlns=""><value>Could not compute price. Some fields have invalid values.</value></data>
+    <data name="EditPrinting/PriceEstimate/UnfilledForm" xmlns=""><value>Price estimate will appear here.</value></data>
+    <data name="EditPrinting/PriceEstimate/Header" xmlns=""><value>Price Estimate:</value></data>
+    <data name="EditPrinting/PriceEstimate/ProductionCosts" xmlns=""><value>Production Costs:</value></data>
+    <data name="EditPrinting/PriceEstimate/DataCosts" xmlns=""><value>Data Costs:</value></data>
+    <data name="EditPrinting/PriceEstimate/Note" xmlns=""><value>For the options you have chosen.</value></data>
+    <data name="EditFinish/Window/Title" xmlns=""><value>Finish</value></data>
+    <data name="EditFinish/Area/Comment" xmlns=""><value>Save your work by adding this document to your shopping basket</value></data>
+    <data name="EditFinish/FieldLabel/Description" xmlns=""><value>Description</value></data>
+    <data name="EditFinish/FieldLabel/Product" xmlns=""><value>Product</value></data>
+    <data name="EditFinish/FieldLabel/ID" xmlns=""><value>ID</value></data>
+    <data name="EditFinish/Label/Warnings" xmlns=""><value>Warnings</value></data>
+    <data name="EditFinish/ErrorMessage/FormFilling" xmlns=""><value>Some required form fields were not correctly filled in</value></data>
+    <data name="EditFinish/ErrorMessage/FreeEdit" xmlns=""><value>Some free edit steps were incorrect</value></data>
+    <data name="EditFinish/ErrorMessage/DataMerge" xmlns=""><value>No database file has been specified</value></data>
+    <data name="EditFinish/ErrorLabel/Printing" xmlns=""><value>Print Options</value></data>
+    <data name="EditFinish/ErrorMessage/Printing" xmlns=""><value>Some required printing options were not correctly specified</value></data>
+    <data name="EditFinish/ErrorLabel/Other" xmlns=""><value>Other Warnings</value></data>
+    <data name="EditFinish/ErrorMessage/Other" xmlns=""><value>The project had a server error</value></data>
+    <data name="EditFinish/Button/AddToShoppingCart" xmlns=""><value>Add to Shopping Basket</value></data>
+    <data name="EditFinish/Button/SaveChanges" xmlns=""><value>Save Changes</value></data>
+    <data name="EditFinish/Button/Quit" xmlns=""><value>Quit Without Saving</value></data>
+    <data name="UserRegistration/Area/Title" xmlns=""><value>Create New Account</value></data>
+    <data name="UserRegistration/Area/Comment" xmlns=""><value>Please enter required information and click the Create Account button</value></data>
+    <data name="ForgotPassword/Area/Title" xmlns=""><value>Enter Your Email Address</value></data>
+    <data name="ForgotPassword/Area/Comment" xmlns=""><value>Please enter your email address so that we can send you a link to retrieve your user name and reset your password.</value></data>
+    <data name="ForgotPasswordReset/Area/Title" xmlns=""><value>Reset Your Password</value></data>
+    <data name="ForgotPasswordReset/Area/Comment" xmlns=""><value>Enter a new password and click Accept to reset your password. Click Cancel to go right to the normal login screen.</value></data>
+    <data name="ForgotPasswordReset/Username" xmlns=""><value>Your User Name is</value></data>
+    <data name="ForgotPasswordReset/NewPassword" xmlns=""><value>New Password</value></data>
+    <data name="ForgotPasswordReset/ConfirmPassword" xmlns=""><value>Confirm New Password</value></data>
+    <data name="ForgotPassword/EmailAddress" xmlns=""><value>Email Address</value></data>
+    <data name="ForgotPassword/ErrorMessage/EmailAddress" xmlns=""><value>Entry not found. Please enter the email address of your user account.</value></data>
+    <data name="ForgotPassword/ErrorMessage/SendError" xmlns=""><value>Error sending the Forgot Password notification.</value></data>
+    <data name="ForgotPassword/EmailSent" xmlns=""><value>Please check your email.  You should receive an email that contains a link, which will allow you to reset your password.</value></data>
+    <data name="CheckoutSteps/StepControls/Title" xmlns=""><value>Checkout Steps</value></data>
+    <data name="CheckoutSteps/Area/Title" xmlns=""><value>Place your order</value></data>
+    <data name="CheckoutSteps/StepLabel/Shipping" xmlns=""><value>Delivery</value></data>
+    <data name="CheckoutSteps/StepLabel/Payment" xmlns=""><value>Payment</value></data>
+    <data name="CheckoutSteps/StepLabel/Order" xmlns=""><value>Order</value></data>
+    <data name="CheckoutSteps/Button/CancelCheckout" xmlns=""><value>Cancel Checkout</value></data>
+    <data name="CheckoutShipping/Window/Title" xmlns=""><value>Delivery Options</value></data>
+    <data name="CheckoutShipping/Area/Comment" xmlns=""><value>Set Delivery Options</value></data>
+    <data name="CheckoutShipping/Button/UpdateDeliveryCost" xmlns=""><value>Update Delivery Cost Estimates</value></data>
+    <data name="CheckoutShipping/Message/NoShippingOptions" xmlns=""><value>No Delivery options have been defined</value></data>
+    <data name="CheckoutShipping/Warning/shippingWeightOverflow" xmlns=""><value>The weight for this order could not be computed.</value></data>
+    <data name="CheckoutPayment/Window/Title" xmlns=""><value>Payment Options</value></data>
+    <data name="CheckoutPayment/Area/Comment" xmlns=""><value>Set Delivery Options</value></data>
+    <data name="CheckoutPayment/Message/NoPaymentsOptions" xmlns=""><value>No payment options have been defined</value></data>
+    <data name="CheckoutOrder/Window/Title" xmlns=""><value>Review and Place Order</value></data>
+    <data name="CheckoutOrder/Warning/header" xmlns=""><value>Warnings:</value></data>
+    <data name="CheckoutOrder/Warning/errorSubmittingOrder" xmlns=""><value>Your order could not be placed. ([1])</value></data>
+    <data name="CheckoutOrder/Warning/orderInvalidatedByExtension" xmlns=""><value>Your order could not be placed due to an internal error. Please contact a system administrator.</value></data>
+    <data name="CheckoutOrder/Warning/errorCommittingOrder" xmlns=""><value>Your order was placed but there were internal errors. ([1])</value></data>
+    <data name="CheckoutOrder/Warning/orderPriceOverflow" xmlns=""><value>An error occurred computing order price.</value></data>
+    <data name="CheckoutOrder/Area/Comment" xmlns=""><value>Review and place your order for production</value></data>
+    <data name="CheckoutOrder/Area/Items" xmlns=""><value>Items:</value></data>
+    <data name="CheckoutOrder/Button/PlaceOrder" xmlns=""><value>Place Order</value></data>
+    <data name="CheckoutOrder/ErrorMessage/Payment" xmlns=""><value>Some required payment option fields were not correctly filled in</value></data>
+    <data name="CheckoutOrder/ErrorMessage/Shipping" xmlns=""><value>Some required shipping option fields were not correctly filled in</value></data>
+    <data name="CheckoutOrder/ErrorMessage/PleaseFill" xmlns=""><value>Please fill in the fields correctly before placing your order</value></data>
+    <data name="CheckoutOrder/ErrorMessage/NoPrices" xmlns=""><value>Unable to display prices</value></data>
+    <data name="Help/Sidebar/Title" xmlns=""><value>Help Topics</value></data>
+    <data name="Help/Window/Title" xmlns=""><value>Help</value></data>
+    <data name="Help/Area/Title" xmlns=""><value>Help</value></data>
+    <data name="Help/Topic/Login" xmlns=""><value>Login</value></data>
+    <data name="Help/Topic/Start" xmlns=""><value>Start a New Document</value></data>
+    <data name="Help/Topic/EditDocument" xmlns=""><value>Edit Document</value></data>
+    <data name="Help/Topic/FormFilling" xmlns=""><value>Form Filling</value></data>
+    <data name="Help/Topic/FreeEdit" xmlns=""><value>Free Edit</value></data>
+    <data name="Help/Topic/DataMerge" xmlns=""><value>Data List</value></data>
+    <data name="Help/Topic/Printing" xmlns=""><value>Printing Options</value></data>
+    <data name="Help/Topic/Finish" xmlns=""><value>Finish</value></data>
+    <data name="Help/Topic/ShoppingCart" xmlns=""><value>Shopping Basket</value></data>
+    <data name="Help/Topic/Checkout" xmlns=""><value>Checkout</value></data>
+    <data name="Help/Topic/Shipping" xmlns=""><value>Delivery</value></data>
+    <data name="Help/Topic/Payment" xmlns=""><value>Payment</value></data>
+    <data name="Help/Topic/Order" xmlns=""><value>Order</value></data>
+    <data name="Help/Topic/Orders" xmlns=""><value>Orders</value></data>
+    <data name="Help/Topic/OrderSummary" xmlns=""><value>Order Summary</value></data>
+    <data name="Help/Topic/Library" xmlns=""><value>My Library</value></data>
+    <data name="Help/Topic/Profile" xmlns=""><value>My Profile</value></data>
+    <data name="Help/Topic/Approvals" xmlns=""><value>My Approvals</value></data>
+    <data name="Help/ErrorMessage/NoHelpAvailable" xmlns=""><value>No help is available for this topic</value></data>
+    <data name="InternalError/Window/Title" xmlns=""><value>Internal Error</value></data>
+    <data name="InternalError/Warning/InternalError" xmlns=""><value>An internal error occurred</value></data>
+    <data name="QueryError/Window/Title" xmlns=""><value>Warning</value></data>
+    <data name="QueryError/Warning/InvalidFields" xmlns=""><value>WARNING: Some fields have invalid values</value></data>
+    <data name="QueryError/Button/CorrectErrors" xmlns=""><value>Correct Errors</value></data>
+    <data name="QueryError/Button/ContinueAnyway" xmlns=""><value>Continue Anyway</value></data>
+    <data name="QueryTempDoc/Warning/DocumentNotSaved" xmlns=""><value>Warning: The current document has not been added to your Shopping Basket</value></data>
+    <data name="QueryTempDoc/Warning/ChangesWillBeLost" xmlns=""><value>Starting a new document will cause changes to be lost</value></data>
+    <data name="QueryTempDoc/Warning/DocumentInUse" xmlns=""><value>Warning: The current document is still being edited in another browser!</value></data>
+    <data name="QueryTempDoc/Warning/EditAnyway" xmlns=""><value>Do you want to abandon any changes made in the other browser and begin editing the document in this browser window?</value></data>
+    <data name="QueryTempDoc/Warning/DocumentLockBroken" xmlns=""><value>*The document you were editing has been taken over by another browser window.</value></data>
+    <data name="QueryTempDoc/Button/Continue" xmlns=""><value>Continue</value></data>
+    <data name="SelectDatabase/Window/Title" xmlns=""><value>Data List: Select Data List</value></data>
+    <data name="SelectDatabase/Area/Title" xmlns=""><value>Data List: Select Data List from Library</value></data>
+    <data name="SelectDatabase/Message/Caption" xmlns=""><value>Select the file to be used as a data list</value></data>
+    <data name="SelectDatabase/Message/MyLibrary" xmlns=""><value>My Library Files</value></data>
+    <data name="SelectDatabase/Message/Shared" xmlns=""><value>Shared Library Files</value></data>
+    <data name="SelectDatabase/Message/SchemaTip" xmlns=""><value>TIP: Only files which match a required schema are shown.</value></data>
+    <data name="SelectDatabase/Message/NoMatchingFiles" xmlns=""><value>No database files match the required schema.</value></data>
+    <data name="SelectDatabase/Message/NoFiles" xmlns=""><value>No database files available.</value></data>
+    <data name="AcquireDatabase/Window/Title" xmlns=""><value>Data List: Acquire a Data List</value></data>
+    <data name="AcquireDatabase/Area/Title" xmlns=""><value>Data List: Acquire a Data List</value></data>
+    <data name="AcquireDatabase/Message/Caption" xmlns=""><value>Specify the search criteria, then click Submit</value></data>
+    <data name="AcquireDatabase/Message/NoInfoAvailable" xmlns=""><value>No information is available about your query result set</value></data>
+    <data name="AcquireDatabase/Message/UnknownNumberOfRows" xmlns=""><value>Number of rows cannot be computed</value></data>
+    <data name="AcquireDatabase/Message/UnknownPrice" xmlns=""><value>Price estimate cannot be computed</value></data>
+    <data name="AcquireDatabase/Message/Records" xmlns=""><value>Record(s)</value></data>
+    <data name="AcquireDatabase/Message/CountingRecords" xmlns=""><value>Counting records...</value></data>
+    <data name="AcquireDatabase/Message/NoRecordsSelected" xmlns=""><value>No records are selected.</value></data>
+    <data name="AcquireDatabase/Button/Preview" xmlns=""><value>Preview</value></data>
+    <data name="UploadDatabase/Window/Title" xmlns=""><value>Data List: Upload a Data List</value></data>
+    <data name="UploadDatabase/Area/Title" xmlns=""><value>Data List: Upload a Data List</value></data>
+    <data name="UploadDatabase/Area/Comment" xmlns=""><value>Browse for a Comma Separated Value (.csv) format file</value></data>
+    <data name="UploadDatabase/Message/Browse" xmlns=""><value>Browse for the CSV file to upload, then click Submit</value></data>
+    <data name="UploadDatabase/Message/Library" xmlns=""><value>Add to Library</value></data>
+    <data name="UploadDatabase/Message/IncludeHeaders" xmlns=""><value>TIP: The uploaded file should include Field Names in the first row</value></data>
+    <data name="UploadDatabase/Message/MustMatchSchema" xmlns=""><value>TIP: The uploaded file must match a required schema</value></data>
+    <data name="UploadDatabase/ErrorMessage/IvalidDatabase" xmlns=""><value>Cannot validate specified database file. Please ensure that you upload a valid database file.</value></data>
+    <data name="UploadImage/Window/Title" xmlns=""><value>Upload Image</value></data>
+    <data name="UploadImage/Window/TitlePdfDocument" xmlns=""><value>Upload PDF Document</value></data>
+    <data name="UploadImage/Area/Title" xmlns=""><value>Upload Image</value></data>
+    <data name="UploadImage/Area/TitlePdfDocument" xmlns=""><value>Upload PDF Document</value></data>
+    <data name="UploadImage/Message/Browse" xmlns=""><value>Browse for an image file to upload, then click Submit</value></data>
+    <data name="UploadImage/Message/BrowsePdfDocument" xmlns=""><value>Browse for a PDF document file to upload, then click Submit</value></data>
+    <data name="UploadImage/Message/InvalidImage" xmlns=""><value>Uploaded file is not a valid image</value></data>
+    <data name="UploadImage/Message/InvalidPdfDocument" xmlns=""><value>Uploaded file is not a valid PDF document</value></data>
+    <data name="UploadImage/Message/RejectedPdfDocument" xmlns=""><value>The file you have selected does not meet the size&lt;br>and page count requirements set for this document.&lt;br>&lt;br> Your document must fit within:</value></data>
+    <data name="UploadImage/Message/Pages" xmlns=""><value>pages</value></data>
+    <data name="UploadImage/Message/RejectedPdfDocumentJoiner" xmlns=""><value>, or</value></data>
+    <data name="UploadImage/Checkbox/Library" xmlns=""><value>Add to Library</value></data>
+    <data name="UserProfile/Warning/profileChangeInvalidatedByExtension" xmlns=""><value>The requested changes could not be made. Please contact your system administrator.</value></data>
+    <data name="UserProfile/Warning/SelfRegistrationInvalidatedByExtension" xmlns=""><value>Self-registration could not take place. Please contact your system administrator.</value></data>
+    <data name="SelectImage/Window/Title" xmlns=""><value>Select Image</value></data>
+    <data name="SelectImage/Window/TitlePdfDocument" xmlns=""><value>Select PDF Document</value></data>
+    <data name="SelectImage/Area/Title" xmlns=""><value>Select Image</value></data>
+    <data name="SelectImage/Area/TitlePdfDocument" xmlns=""><value>Select PDF Document</value></data>
+    <data name="SelectImage/Message/MeetRequirements" xmlns=""><value>Only files that meet size and page count requirements for this product are shown.</value></data>
+    <data name="DownloadOutput/Window/Title" xmlns=""><value>Download Output</value></data>
+    <data name="DownloadOutput/Area/Title" xmlns=""><value>Download Output</value></data>
+    <data name="DownloadOutput/Area/Comment" xmlns=""><value>Click on the jpg file name below to download your jpg file.</value></data>
+    <data name="DownloadOutput/Button/GoBack" xmlns=""><value>Go Back</value></data>
+    <data name="Approvals/Window/Title" xmlns=""><value>Approvals</value></data>
+    <data name="Approvals/ComboLabel/Pending" xmlns=""><value>All Orders Pending My Approval</value></data>
+    <data name="Approvals/ComboLabel/Approved" xmlns=""><value>All Orders Approved</value></data>
+    <data name="Approvals/ComboLabel/ApprovedMe" xmlns=""><value>All Orders Approved By Me</value></data>
+    <data name="Approvals/ComboLabel/Unapproved" xmlns=""><value>All Orders Declined</value></data>
+    <data name="Approvals/ComboLabel/UnapprovedMe" xmlns=""><value>All Orders Declined By Me</value></data>
+    <data name="Approvals/Area/Title" xmlns=""><value>Approvals</value></data>
+    <data name="Approvals/Area/Comment" xmlns=""><value>Orders submitted for your approval are shown here</value></data>
+    <data name="Approvals/ColumnHeader/Order" xmlns=""><value>Order</value></data>
+    <data name="Approvals/ColumnHeader/Placed" xmlns=""><value>Created</value></data>
+    <data name="Approvals/ColumnHeader/Items" xmlns=""><value>Items</value></data>
+    <data name="Approvals/ColumnHeader/Options" xmlns=""><value>Options</value></data>
+    <data name="Approvals/ColumnHeader/TotalCost" xmlns=""><value>Total Price</value></data>
+    <data name="Approvals/ColumnHeader/ReviewStatus" xmlns=""><value>Review Status</value></data>
+    <data name="Approvals/ColumnHeader/OrderStatus" xmlns=""><value>Order Status</value></data>
+    <data name="Approvals/ColumnHeader/ByUser" xmlns=""><value>By User</value></data>
+    <data name="Approvals/Option/Review" xmlns=""><value>Review</value></data>
+    <data name="Approvals/Option/View" xmlns=""><value>View</value></data>
+    <data name="Approvals/Message/NoOrdersPending" xmlns=""><value>No orders are currently pending your approval.</value></data>
+    <data name="Approvals/Message/NoOrdersApproved" xmlns=""><value>No orders have been approved.</value></data>
+    <data name="Approvals/Message/NoOrdersApprovedYou" xmlns=""><value>No orders have been approved by you.</value></data>
+    <data name="Approvals/Message/NoOrdersDeclined" xmlns=""><value>No orders have been declined.</value></data>
+    <data name="Approvals/Message/NoOrdersDeclinedYou" xmlns=""><value>No orders have been declined by you.</value></data>
+    <data name="Approvals/Warning/ApprovalConflict" xmlns=""><value>Order has already been disposed of by another reviewer.</value></data>
+    <data name="ApprovalsReview/Area/Title" xmlns=""><value>Review Order</value></data>
+    <data name="ApprovalsReview/Area/Comment" xmlns=""><value>Click Approve to allow the order to be fulfilled, or Decline to prevent it.</value></data>
+    <data name="ApprovalsReview/Area/CommentReviewed" xmlns=""><value>Order approval summary.</value></data>
+    <data name="ApprovalsReview/Button/Approve" xmlns=""><value>Approve</value></data>
+    <data name="ApprovalsReview/Button/Decline" xmlns=""><value>Decline</value></data>
+    <data name="ApprovalsReview/Area/CommentsBox" xmlns=""><value>Order Review Comments:</value></data>
+    <data name="ApprovalsReview/Text/ByUser" xmlns=""><value>By User</value></data>
+    <data name="ApprovalsReview/ColumnHeader/Comments" xmlns=""><value>Comments</value></data>
+    <data name="ApprovalsReview/ColumnHeader/ID_Product" xmlns=""><value>ID and Product</value></data>
+    <data name="ApprovalsReview/ColumnHeader/Description" xmlns=""><value>Description</value></data>
+    <data name="ApprovalsReview/ColumnHeader/Options" xmlns=""><value>Options</value></data>
+    <data name="ApprovalsReview/ColumnHeader/Thumbnail" xmlns=""><value>Thumbnail</value></data>
+    <data name="ApprovalsReview/Message/ConfirmApprove" xmlns=""><value>Approve this order for production and payment?</value></data>
+    <data name="ApprovalsReview/Message/ConfirmDecline" xmlns=""><value>Decline this order so that it will not be produced?</value></data>
+    <data name="ApprovalsReview/Option/Proof" xmlns=""><value>PDF Preview</value></data>
+    <data name="ApprovalsReview/Option/ProofHtml" xmlns=""><value>HTML Preview</value></data>
+    <data name="OneMoment/Warning/Title" xmlns=""><value>Redirecting to Form Filling step</value></data>
+    <data name="OneMoment/Warning/Text" xmlns=""><value>One moment, please...</value></data>
+    <data name="FieldFilling/IncludeBox/Include" xmlns=""><value>Include:</value></data>
+    <data name="FieldFilling/IncludeBox/Exclude" xmlns=""><value>Exclude:</value></data>
+    <data name="FieldFilling/IncludeBox/Add" xmlns=""><value>&amp;lt; Add</value></data>
+    <data name="FieldFilling/IncludeBox/Remove" xmlns=""><value>Remove &amp;gt;</value></data>
+    <data name="FieldFilling/PasswordFieldType/Text" xmlns=""><value>[Value Set]</value></data>
+    <data name="FieldFilling/SecureField/Text" xmlns=""><value>[Value Set]</value></data>
+    <data name="FieldFilling/CheckboxReadMode/Checked" xmlns=""><value>Yes</value></data>
+    <data name="FieldFilling/CheckboxReadMode/Unchecked" xmlns=""><value>No</value></data>
+    <data name="FieldFilling/Validation/FallbackMessage" xmlns=""><value>Please provide a valid value for this field.</value></data>
+    <data name="FieldFilling/EnumeratedControl/NoValue" xmlns=""><value>Please select a value</value></data>
+    <data name="FieldFilling/EnumeratedControl/BadValue" xmlns=""><value>The previously selected value is no longer available. Please select a different value</value></data>
+    <data name="FinanceItem/Names/Subtotal" xmlns=""><value>Subtotal</value></data>
+    <data name="FinanceItem/Names/Shipping" xmlns=""><value>Delivery</value></data>
+    <data name="FinanceItem/Names/Handling" xmlns=""><value>Handling</value></data>
+    <data name="FinanceItem/Names/Tax" xmlns=""><value>VAT</value></data>
+    <data name="FinanceItem/Names/Adjustment" xmlns=""><value>Adjustment</value></data>
+    <data name="FinanceItem/Names/TaxableAdjustment" xmlns=""><value>Adjustment</value></data>
+    <data name="FinanceItem/Names/Total" xmlns=""><value>Total Price</value></data>
+    <data name="FinanceItem/Names/Received" xmlns=""><value>Payment Received</value></data>
+    <data name="FinanceItem/Names/BalanceDue" xmlns=""><value>Balance Due</value></data>
+    <data name="Authorize/Error/Declined" xmlns=""><value>Authorization has been declined.</value></data>
+    <data name="Authorize/Error/InvalidAccount" xmlns=""><value>The account number is invalid.</value></data>
+    <data name="Authorize/Error/InvalidExpiration" xmlns=""><value>The expiration date is invalid.</value></data>
+    <data name="Authorize/Error/FailedAddress" xmlns=""><value>The address given does not match the account information.</value></data>
+    <data name="Authorize/Error/FailedSecurityCode" xmlns=""><value>The security code does not match the account information.</value></data>
+    <data name="Authorize/Error/SystemBusy" xmlns=""><value>System is busy, please try later.</value></data>
+    <data name="Shipping/Error/PostalCodeMismatch" xmlns=""><value>Postal code does not match region</value></data>
+    <data name="Shipping/Error/InvalidPostalCode" xmlns=""><value>Invalid postal code</value></data>
+	 <data name="CheckoutShipping/Label/ShipTo" xmlns=""><value>Deliver To</value>
+  </data>
+</root>

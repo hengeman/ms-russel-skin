@@ -61,7 +61,7 @@ module.exports = function(grunt) {
     // May be replaced with templates one day
     copy: {
       main: {
-        src: 'inserts/*',
+        src: ['inserts/*', 'strings/*'],
         dest: 'output/'
       }
     },
@@ -91,8 +91,8 @@ module.exports = function(grunt) {
         files: jsFiles,
         tasks: ['jshint:dev', 'concat', 'ftp-deploy:dev']
       },
-      inserts: {
-        files: 'inserts/**/*',
+      statics: {
+        files: ['inserts/**/*', 'strings/**/*'],
         tasks: ['copy', 'ftp-deploy:dev']
       }
     }
