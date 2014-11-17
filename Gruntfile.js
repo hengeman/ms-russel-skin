@@ -8,6 +8,10 @@ module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
 
+    // Delete stale output
+    clean: ['output/*', '!output/.keep'],
+
+    // SCSS precomplation
     sass: {
       dev: {
         files: {
@@ -85,11 +89,11 @@ module.exports = function(grunt) {
     watch: {
       sass: {
         files: 'scss/**/*',
-        tasks: ['sass:dev', 'ftp-deploy:dev']
+        tasks: ['clean', 'sass:dev', 'ftp-deploy:dev']
       },
       js: {
         files: jsFiles,
-        tasks: ['jshint:dev', 'concat', 'ftp-deploy:dev']
+        tasks: ['clean', 'jshint:dev', 'concat', 'ftp-deploy:dev']
       },
       statics: {
         files: ['inserts/**/*', 'strings/**/*'],
@@ -101,10 +105,25 @@ module.exports = function(grunt) {
   grunt.registerTask(
     'default',
     'Compile files and watch',
-    ['sass:dev', 'jshint:dev', 'concat', 'copy', 'ftp-deploy:dev', 'watch']);
+    [
+      'clean',
+      'sass:dev',
+      'jshint:dev',
+      'concat',
+      'copy',
+      'ftp-deploy:dev',
+      'watch'
+    ]);
 
   grunt.registerTask(
     'deploy',
     'Compile files ready for deployment',
-    ['sass:prod', 'jshint:prod', 'concat', 'uglify', 'copy']);
+    [
+      'clean',
+      'sass:prod',
+      'jshint:prod',
+      'concat',
+      'uglify',
+      'copy'
+    ]);
 };
