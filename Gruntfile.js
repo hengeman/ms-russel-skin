@@ -89,11 +89,11 @@ module.exports = function(grunt) {
     watch: {
       sass: {
         files: 'scss/**/*',
-        tasks: ['clean', 'sass:dev', 'ftp-deploy:dev']
+        tasks: ['sass:dev', 'ftp-deploy:dev']
       },
       js: {
         files: jsFiles,
-        tasks: ['clean', 'jshint:dev', 'concat', 'ftp-deploy:dev']
+        tasks: ['jshint:dev', 'concat', 'ftp-deploy:dev']
       },
       statics: {
         files: ['inserts/**/*', 'strings/**/*'],
