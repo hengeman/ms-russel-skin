@@ -23,7 +23,9 @@
 
     img {
       border-bottom: 5px solid $col-brand-orange;
+      bottom: 10px;
       padding-bottom: 4px;
+      position: relative;
     }
   }
 }
