@@ -1,5 +1,6 @@
+// Move the search input to the header insert
 (function() {
-  // Move the search input to the header insert
+  'use strict';
   var headerSearch,
       searchInput  = document.querySelector('#txtSearch');
 

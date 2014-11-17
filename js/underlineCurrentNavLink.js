@@ -1,5 +1,6 @@
+// Add 'current' class to navlink for current page
 (function() {
-  // Add 'current' class to navlink for current page
+  'use strict';
   var links = document.querySelectorAll('.site-header__nav a'),
       url   = document.URL,
       pathname,

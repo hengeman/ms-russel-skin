@@ -1,5 +1,6 @@
 var trackOutboundLink;
 (function() {
+  'use strict';
   var i,
       links,
       nameColIndex,

@@ -1,5 +1,6 @@
+// Add a welcome note to the top of the page
 (function() {
-  // Add a welcome note to the top of the page
+  'use strict';
   var content,
       welcome,
       name = document.querySelector('#pageHeaderControl_login_lblWelcome');
