@@ -2,9 +2,11 @@
   // Add 'current' class to navlink for current page
   var links = document.querySelectorAll('.site-header__nav a'),
       url   = document.URL,
-      pathname;
+      pathname,
+      i;
 
-  for (var i = 0, len = links.length; i < len; i++) {
+  i = links.length;
+  while (i--) {
     pathname = links[i].pathname;
 
     if (pathname && new RegExp(pathname).test(url)) {
