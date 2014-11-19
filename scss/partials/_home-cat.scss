@@ -7,6 +7,7 @@
     padding: 0 20px 10px;
     vertical-align: top;
     width: 180px;
+    border: none;
 
     &:nth-child(2) {
       margin: 0 40px;
@@ -16,8 +17,8 @@
       margin: 5px;
       text-align: center;
     }
-    img a {
-      border:none;
-    }
-  }
+		img {
+			border: none;
+		}
+	}
 }
