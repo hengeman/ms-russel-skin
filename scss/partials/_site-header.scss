@@ -20,13 +20,15 @@
     position: relative;
     vertical-align: bottom;
     width: 220px;
-		border-style: none;
 
     img {
       border-bottom: 5px solid $col-brand-orange;
       bottom: 10px;
       padding-bottom: 4px;
       position: relative;
+    }
+    img a {
+        border:none;
     }
   }
 }
