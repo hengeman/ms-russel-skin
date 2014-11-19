@@ -1,7 +1,6 @@
 .home-cat__row {
   margin-bottom: 15px;
   width: 100%;
-	border-style: none;
 
   a {
     display: inline-block;
@@ -16,6 +15,9 @@
     h2 {
       margin: 5px;
       text-align: center;
+    }
+    img a {
+      border:none;
     }
   }
 }
