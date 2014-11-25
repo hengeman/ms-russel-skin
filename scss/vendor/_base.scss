@@ -1,4 +1,6 @@
 #labelHelp,
+.areaGraphicCartStep,
+.areaGraphicCartStepRollover,
 .catalogFolder-l,
 .catalogFolder-r,
 .catalogFolderHeader,
@@ -17,8 +19,10 @@
 .catalogItemRule-r,
 .categorySidebarHeader-l,
 .categorySidebarHeader-r,
+.navBarSeparator,
 .poweredByPageflex,
-.navBarSeparator {
+.stepCancel.stepNextPrevLabel,
+.stepCart.stepNextPrevLabel {
   display: none;
 }
 
@@ -60,26 +64,6 @@ td.basic {
 .AddressTileHeader {
   font-weight: bold;
   margin-bottom: 15px;
-}
-
-.areaGraphicNextStep,
-.areaGraphicNextStepRollover {
-  background: url('Images/StepNext.gif') no-repeat;
-  height: 27px;
-  width: 22px;
-}
-
-.areaGraphicPreviousStep,
-.areaGraphicPreviousStepRollover {
-  background: url('Images/StepPrevious.gif') no-repeat;
-  height: 27px;
-  width: 22px;
-}
-
-.areaGraphicNextPrevSeparatorLine {
-  background: url('Images/StepNextPrevSeparator.gif') no-repeat;
-  height: 27px;
-  width: 28px;
 }
 
 .viewSwitcher {
@@ -185,22 +169,6 @@ td.basic {
   font-size: 8px;
   font-weight: bold;
   padding: 0 15px 2px 0;
-}
-
-.areaGraphicCartStep,
-.areaGraphicCartStepRollover {
-  height: 15px;
-  padding-left: 5px;
-  padding-top: 1px;
-  width: 20px;
-}
-
-.areaGraphicCartStep div,
-.areaGraphicCartStepRollover div {
-  background: url('Images/cart_iconx2.gif') no-repeat;
-  height: 13px;
-  margin-bottom: 3px;
-  width: 20px;
 }
 
 .areaGraphicCartStepRollover div {
