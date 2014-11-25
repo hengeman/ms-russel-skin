@@ -26,6 +26,7 @@
   }
 
 </script>
+<link rel="shortcut icon" href="https://russellwealthstore.co.uk/Media/favicon.ico" />
 <link rel="stylesheet" href="https://russellwealthstore.co.uk/Custom/Themes/Russell-Skinning/CSS/Site.css" type="text/css" media="screen" title="no title" charset="utf-8">
 <header class="site-header">
   <img src="/Custom/Media/images/stripes.svg" alt="Russel Stripes"
