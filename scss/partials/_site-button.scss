@@ -36,3 +36,26 @@ a.searchButton:hover {
   background: lighten($col-button-bg, 3);
 }
 
+a.stepNextPrevLabel, {
+  background: $col-button-bg;
+  border-radius: 3px;
+  color: #fff;
+  display: inline-block;
+  margin: .1em .3em;
+  padding: .8em 1em;
+  text-decoration: none;
+  text-transform: none;
+  white-space: nowrap;
+}
+
+a.stepNextPrevLabelRollover, {
+  background: lighten($col-button-bg, 3);
+  border-radius: 3px;
+  color: #fff;
+  display: inline-block;
+  margin: .1em .3em;
+  padding: .8em 1em;
+  text-decoration: none;
+  text-transform: none;
+  white-space: nowrap;
+}
