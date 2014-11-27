@@ -2,6 +2,12 @@
   border: 0;
   padding: 15px;
 	text-align: center;
+	margin-top: 15px;
+}
+
+.itemTableHeader {
+	background-color: $col-table-bg-th;
+	padding: 8px;
 }
 
 #roiProdList_gridViewProducts {
