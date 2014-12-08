@@ -2,7 +2,9 @@ $(document).ready( function() {
 // Re-Link the Continue Shopping button to the Home category
 // Called from the Basket insert
 
-  var id_array = ['btnCancel1_div'];
+  var id_array = ['btnCancel1_div',
+	'btnCancel2_div',
+	'btnCancel1_div'];
 
   for (var i = 0; i < id_array.length; i++) {
     var link = document.getElementById(id_array[i]);
