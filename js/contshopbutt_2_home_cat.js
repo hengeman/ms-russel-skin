@@ -1,17 +1,15 @@
-$(document).ready( function() {
-// Re-Link the Continue Shopping button to the Home category
-// Called from the Basket insert
+(function() {
+  // Re-Link the Continue Shopping button to the Home category
 
-  var id_array = ['btnCancel1_div',
-	'btnCancel2_div',
-	'btnCancel1_div'];
+  var a,
+      ids = ['btnCancel1_div', 'btnCancel2_div', 'btnCancel1_div'],
+      i = ids.length;
 
-  for (var i = 0; i < id_array.length; i++) {
-    var link = document.getElementById(id_array[i]);
-    if (link !== null) {
-      var link_att = link.attributes;
-      link_att.getNamedItem('href').value = 'UserContentStart.aspx?category=1';
-      return
+  while (i--) {
+    a = document.getElementById(ids[i]);
+    if (a) {
+      a.href = 'UserContentStart.aspx?category=1';
+      return;
     }
   }
-});
+})();
