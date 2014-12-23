@@ -54,8 +54,10 @@
         </div>
       </div>
     </section>
-
+    <div>
+    <a href="http://www.russellwealth.co.uk/" target="_new">
     <img class="site-header__russel-logo" alt="Russel Wealth Management"
-    src="/Custom/Media/images/logo-russell-wm.svg" />
+    src="/Custom/Media/images/logo-russell-wm.svg" /></a>
+    </div>
   </nav>
 </header>
