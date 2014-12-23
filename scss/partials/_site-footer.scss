@@ -1,12 +1,12 @@
 .site-footer__block {
   background: $col-brand-grey;
-  background-image: url('/Custom/Media/images/journey.svg');
+  background-image: url('/Custom/Media/images/journey.png');
   background-position: right 0 bottom 0;
   background-repeat: no-repeat;
   padding: ($page-padding * 2) $page-padding;
   width: 100%;
   margin-top: 150px;
-
+	
   img {
     width: 200px;
 		border: none;
